@@ -4,7 +4,7 @@
 
 //*Color Variables NICHT BOOTSTRAP
 
-$ColorCoral: #f32853;
+$ColorGolden: #cda45d;
 
 //* Creation of Spacers 
 $spacer : 5px;
@@ -24,6 +24,7 @@ $spacers : map-merge($spacers, (
 
 //*Creation of colors in Bootstrap
 $couleur-perso : (
+    "golden": #cda45d,
 
 );
 
