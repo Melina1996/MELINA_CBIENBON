@@ -13901,6 +13901,42 @@ main {
   border: 2px solid #3c3939;
 }
 
+.sectionSeven {
+  width: 100%;
+  height: 550px;
+  background-color: #0b0b09;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sectionSeven .my-container-sectionSeven {
+  width: 90%;
+}
+.sectionSeven .my-container-sectionSeven h5, .sectionSeven .my-container-sectionSeven .h5 {
+  color: white;
+  font-family: RobotoRegular;
+  font-size: 18px;
+}
+.sectionSeven .my-container-sectionSeven h3, .sectionSeven .my-container-sectionSeven .h3 {
+  color: #cda45d;
+  font-family: RobotoSerif-Medium;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.sectionSeven .my-container-sectionSeven .my-chefs {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.sectionSeven .my-container-sectionSeven .my-chefs img {
+  height: 390px;
+  width: 412px;
+}
+
 /*Laptop*/
 @media (min-width: 768px) and (max-width: 1024px) {
   header {
@@ -14573,40 +14609,119 @@ main {
     border: 2px solid #3c3939;
   }
 }
-.sectionSeven {
-  width: 100%;
-  height: 550px;
-  background-color: #0b0b09;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+/*Laptop*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .sectionSeven {
+    width: 100%;
+    height: 550px;
+    background-color: #0b0b09;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionSeven .my-container-sectionSeven {
+    width: 90%;
+  }
+  .sectionSeven .my-container-sectionSeven h5, .sectionSeven .my-container-sectionSeven .h5 {
+    color: white;
+    font-family: RobotoRegular;
+    font-size: 18px;
+  }
+  .sectionSeven .my-container-sectionSeven h3, .sectionSeven .my-container-sectionSeven .h3 {
+    color: #cda45d;
+    font-family: RobotoSerif-Medium;
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .sectionSeven .my-container-sectionSeven .my-chefs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+  .sectionSeven .my-container-sectionSeven .my-chefs img {
+    height: 250px;
+    width: 290px;
+  }
 }
-.sectionSeven .my-container-sectionSeven {
-  width: 90%;
+/*Tablet*/
+@media (min-width: 425px) and (max-width: 768px) {
+  .sectionSeven {
+    width: 100%;
+    height: 700px;
+    background-color: #0b0b09;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionSeven .my-container-sectionSeven {
+    width: 90%;
+  }
+  .sectionSeven .my-container-sectionSeven h5, .sectionSeven .my-container-sectionSeven .h5 {
+    color: white;
+    font-family: RobotoRegular;
+    font-size: 18px;
+  }
+  .sectionSeven .my-container-sectionSeven h3, .sectionSeven .my-container-sectionSeven .h3 {
+    color: #cda45d;
+    font-family: RobotoSerif-Medium;
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .sectionSeven .my-container-sectionSeven .my-chefs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+  .sectionSeven .my-container-sectionSeven .my-chefs img {
+    height: 270px;
+    width: 310px;
+  }
 }
-.sectionSeven .my-container-sectionSeven h5, .sectionSeven .my-container-sectionSeven .h5 {
-  color: white;
-  font-family: RobotoRegular;
-  font-size: 18px;
-}
-.sectionSeven .my-container-sectionSeven h3, .sectionSeven .my-container-sectionSeven .h3 {
-  color: #cda45d;
-  font-family: RobotoSerif-Medium;
-  font-size: 35px;
-  margin-bottom: 20px;
-}
-.sectionSeven .my-container-sectionSeven .my-chefs {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-evenly;
-  gap: 20px;
-}
-.sectionSeven .my-container-sectionSeven .my-chefs img {
-  height: 390px;
-  width: 412px;
+/*Mobile M&L*/
+@media (min-width: 321px) and (max-width: 425px) {
+  .sectionSeven {
+    width: 100%;
+    height: 1300px;
+    background-color: #0b0b09;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionSeven .my-container-sectionSeven {
+    width: 90%;
+  }
+  .sectionSeven .my-container-sectionSeven h5, .sectionSeven .my-container-sectionSeven .h5 {
+    color: white;
+    font-family: RobotoRegular;
+    font-size: 18px;
+  }
+  .sectionSeven .my-container-sectionSeven h3, .sectionSeven .my-container-sectionSeven .h3 {
+    color: #cda45d;
+    font-family: RobotoSerif-Medium;
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .sectionSeven .my-container-sectionSeven .my-chefs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+  }
+  .sectionSeven .my-container-sectionSeven .my-chefs img {
+    height: 350px;
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
