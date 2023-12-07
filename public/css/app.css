@@ -14573,5 +14573,40 @@ main {
     border: 2px solid #3c3939;
   }
 }
+.sectionSeven {
+  width: 100%;
+  height: 550px;
+  background-color: #0b0b09;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sectionSeven .my-container-sectionSeven {
+  width: 90%;
+}
+.sectionSeven .my-container-sectionSeven h5, .sectionSeven .my-container-sectionSeven .h5 {
+  color: white;
+  font-family: RobotoRegular;
+  font-size: 18px;
+}
+.sectionSeven .my-container-sectionSeven h3, .sectionSeven .my-container-sectionSeven .h3 {
+  color: #cda45d;
+  font-family: RobotoSerif-Medium;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.sectionSeven .my-container-sectionSeven .my-chefs {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+.sectionSeven .my-container-sectionSeven .my-chefs img {
+  height: 390px;
+  width: 412px;
+}
 
 /*# sourceMappingURL=app.css.map */
