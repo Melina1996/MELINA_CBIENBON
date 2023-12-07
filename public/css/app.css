@@ -14025,5 +14025,44 @@ main {
   }
 }
 /*Mobile M&L*/
+@media (min-width: 321px) and (max-width: 425px) {
+  .sectionTwo {
+    height: 950px;
+  }
+  .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo {
+    background-color: #1a1814;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 110px;
+    padding-left: 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo h1, .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .h1 {
+    font-family: RobotoBold;
+    font-size: 20px;
+    color: #cda45d;
+    padding: 0;
+  }
+  .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo h2, .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .h2 {
+    font-family: RobotoSerif-Medium;
+    font-size: 18px;
+    color: white;
+    padding: 0;
+  }
+  .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo p {
+    font-family: RobotoRegular;
+    color: white;
+    font-size: 14px;
+    opacity: 60%;
+    padding: 0;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */
