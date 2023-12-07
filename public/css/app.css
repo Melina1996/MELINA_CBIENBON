@@ -13570,6 +13570,29 @@ header {
   height: 700px;
   position: relative;
 }
+header .modal .modal-dialog {
+  height: 100%;
+}
+header .modal .modal-dialog .modal-content {
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+}
+header .modal .modal-dialog .modal-content .modal-body {
+  padding: 0;
+  margin: 0;
+  width: 900px;
+}
+header .modal .modal-dialog .modal-content .modal-body video {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  display: block;
+  margin: auto;
+}
 header .upper-header {
   width: 100%;
   height: 10%;

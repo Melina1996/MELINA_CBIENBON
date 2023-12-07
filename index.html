@@ -12,6 +12,19 @@
 <body>
 
     <header>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">       
+                        <div class="modal-body">
+                            <video autoplay>
+                                <source src="./public/assets/video/food.mp4" type="video/mp4">
+                                </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
         
             <div class="my-brightness"></div>
             <div class="my-background"></div>
@@ -71,7 +84,7 @@
                 </div>
 
                 <div class="my-modal">
-                    <button class="btn btn-golden my-play-button" type="submit"><i class="fa-solid fa-play my-icon-play"></i></button>
+                    <button class="btn btn-golden my-play-button" data-bs-toggle="modal" data-bs-target="#exampleModal" type="submit"><i class="fa-solid fa-play my-icon-play"></i></button>
                 </div>
 
             </div>
@@ -304,11 +317,82 @@
 
         </div>
 
-
     </main>  
 
 
     <footer>
+
+        <div class="my-upper-footer">
+
+            <div class="my-container-footer">
+
+                <div class="footer-part-one">
+
+                    <h3>CBIENBON</h3>
+
+                    <div>
+                        <p>A108 Adam Street</p>
+                        <p>NY 535022, USA</p>
+                    </div>
+
+                    <div>
+                        <p>Phone: +1 5589 55488 55s</p>
+                        <p>Email: info@example.com</p>
+                    </div>
+
+                    <div class="footer-icons">
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                        <i class="fa-brands fa-skype"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+
+                </div>
+
+                <div class="footer-part-two">
+
+                    <p>Useful Links</p>
+                    <div class="list-useful-links">
+                        <p><span>></span>Home</p>
+                        <p><span>></span>About us</p>
+                        <p><span>></span>Services</p>
+                        <p><span>></span>Terms of service</p>
+                        <p><span>></span>Privacy Policy</p>
+                    </div>
+
+                </div>
+
+                <div class="footer-part-three">
+
+                    <p>Our Services</p>
+                    <div class="list-our-services">
+                        <p><span>></span>Web Design</p>
+                        <p><span>></span>Web Development</p>
+                        <p><span>></span>Product Management</p>
+                        <p><span>></span>Marketing</p>
+                        <p><span>></span>Graphic Design</p>
+                    </div>
+
+                </div>
+
+                <div class="footer-part-four">
+
+                    <p>Our Newsletter</p>
+
+                    <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="my-bottom-footer">
+
+            <p>&#169; Copyright <span>CBIENBON.</span> All Rights Reserved</p>
+
+        </div>
 
       
     </footer>
