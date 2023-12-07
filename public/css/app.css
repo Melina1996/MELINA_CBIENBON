@@ -13625,6 +13625,13 @@ header .bottom-header .my-banner-text-container .my-buttons .btn {
   padding-right: 18px;
   font-size: 13px;
 }
+header .bottom-header .my-modal {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 header .bottom-header .my-modal .my-play-button {
   border-radius: 50%;
 }
@@ -13632,13 +13639,6 @@ header .bottom-header .my-modal .my-icon-play {
   font-size: 35px;
   color: white;
   padding: 30px;
-}
-header .bottom-header .my-modal {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 header::before {
@@ -13666,5 +13666,97 @@ main {
 }
 
 /*Laptop*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    height: 600px;
+  }
+  header .bottom-header .my-banner-text-container {
+    width: 50%;
+  }
+  header .bottom-header .my-banner-text-container h1, header .bottom-header .my-banner-text-container .h1 {
+    font-size: 35px;
+  }
+  header .bottom-header .my-banner-text-container h4, header .bottom-header .my-banner-text-container .h4 {
+    font-size: 15px;
+  }
+  header .bottom-header .my-banner-text-container .my-buttons {
+    margin-top: 15px;
+    display: flex;
+    gap: 20px;
+  }
+  header .bottom-header .my-banner-text-container .my-buttons .btn {
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 10px;
+  }
+  header .bottom-header .my-modal {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  header .bottom-header .my-modal .my-play-button {
+    border-radius: 50%;
+  }
+  header .bottom-header .my-modal .my-icon-play {
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+  }
+}
+/*Tablet*/
+@media (min-width: 425px) and (max-width: 768px) {
+  header {
+    height: 700px;
+  }
+  header .bottom-header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  header .bottom-header .my-banner-text-container {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  header .bottom-header .my-banner-text-container h1, header .bottom-header .my-banner-text-container .h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  header .bottom-header .my-banner-text-container h4, header .bottom-header .my-banner-text-container .h4 {
+    font-size: 15px;
+    text-align: center;
+  }
+  header .bottom-header .my-banner-text-container .my-buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  header .bottom-header .my-banner-text-container .my-buttons .btn {
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 10px;
+  }
+  header .bottom-header .my-modal {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  header .bottom-header .my-modal .my-play-button {
+    border-radius: 50%;
+  }
+  header .bottom-header .my-modal .my-icon-play {
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */
