@@ -11,19 +11,19 @@
 
         display: flex
         justify-content: center
-        align-items: center
+        align-items: flex-start
         .my-social-media
-            width: 50%
+            width: 30%
             height: 100%
 
             display: flex
             flex-direction: column
             justify-content: center
-            gap: 20px
+            gap: 30px
             .my-social-media-items
                 display: flex
                 align-items: center
-                gap: 10px
+                gap: 20px
                 .my-icon-social-media
                     color: white
                     font-size: 20px
@@ -31,24 +31,78 @@
                 h4
                     color: white
                     font-famiy: RobotoMedium
-                    font-size: 18px
+                    font-size: 25px
                     padding:0
                     margin: 0
                 p
                     color: white
                     font-famiy: RobotoRegular
                     opacity: 40%
-                    font-size: 13px
+                    font-size: 15px
                     padding:0
                     margin: 0
 
 
         .my-form-sectionEight
-            width: 50%
+            width: 70%
 
             display: flex
+            display-wrap: wrap
+            justify-content: space-between
+            align-items: center
             flex-direction: column
-            justify-content: center
+            gap: 20px
+            .email-name
+                display: flex
+                width: 100%
+
+                gap: 20px
+
+                #name, #Email
+                    padding: 5px
+                    width: 50%
+                    border-radius: 1px
+                    border: 1px solid #625b4b
+                    background-color: rgba(0, 0, 0, 0)
+                    font-size: 15px
+                input:focus, textarea:focus 
+                    outline: none
+                ::placeholder
+                    color: #625b4b
+                    font-family: RobotoRegular
+            #subject 
+                padding: 5px
+                width: 100%
+                border-radius: 1px
+                border: 1px solid #625b4b
+                background-color: rgba(0, 0, 0, 0)
+                font-size: 15px
+            input:focus, textarea:focus 
+                outline: none
+            ::placeholder
+                color: #625b4b
+                font-family: RobotoRegular
+            #message 
+                padding: 5px
+                border-radius: 1px
+                margin-bottom: 35px
+                height: 200px
+                width: 100%
+                border: 1px solid #625b4b
+                background-color: rgba(0, 0, 0, 0)
+                font-size: 15px
+            input:focus, textarea:focus 
+                outline: none
+            ::placeholder
+                color: #625b4b
+                font-family: RobotoRegular
+            button
+                padding-left: 25px
+                padding-right: 25px
+                font-size: 18px
+                width: 180px
+                
+
 
 
 
