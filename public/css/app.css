@@ -14066,7 +14066,7 @@ main {
 .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight #message {
   padding: 5px;
   border-radius: 1px;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
   height: 200px;
   width: 100%;
   border: 1px solid #625b4b;
@@ -14871,6 +14871,358 @@ main {
   .sectionSeven .my-container-sectionSeven .my-chefs img {
     height: 350px;
     width: 100%;
+  }
+}
+/*Laptop*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .sectionEightPartThree {
+    width: 100%;
+    height: 500px;
+    background-color: #0b0b09;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-social-media {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-social-media .my-social-media-items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-social-media .my-social-media-items .my-icon-social-media {
+    color: white;
+    font-size: 20px;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-social-media .my-text-social-media h4, .sectionEightPartThree .my-container-sectionEightPartThree .my-social-media .my-text-social-media .h4 {
+    color: white;
+    font-famiy: RobotoMedium;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-social-media .my-text-social-media p {
+    color: white;
+    font-famiy: RobotoRegular;
+    opacity: 40%;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight {
+    width: 70%;
+    display: flex;
+    display-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight .email-name {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight .email-name #name, .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight .email-name #Email {
+    padding: 5px;
+    width: 50%;
+    border-radius: 1px;
+    border: 1px solid #625b4b;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 15px;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight .email-name input:focus, .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight .email-name textarea:focus {
+    outline: none;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight .email-name ::placeholder {
+    color: #625b4b;
+    font-family: RobotoRegular;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight #subject {
+    padding: 5px;
+    width: 100%;
+    border-radius: 1px;
+    border: 1px solid #625b4b;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 15px;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight input:focus, .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight textarea:focus {
+    outline: none;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight ::placeholder {
+    color: #625b4b;
+    font-family: RobotoRegular;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight #message {
+    padding: 5px;
+    border-radius: 1px;
+    margin-bottom: 15px;
+    height: 200px;
+    width: 100%;
+    border: 1px solid #625b4b;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 15px;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight input:focus, .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight textarea:focus {
+    outline: none;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight ::placeholder {
+    color: #625b4b;
+    font-family: RobotoRegular;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight button {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 15px;
+    width: 180px;
+  }
+}
+/*Tablet*/
+@media (min-width: 425px) and (max-width: 768px) {
+  .sectionEightPartThree {
+    width: 100%;
+    height: 800px;
+    background-color: #0b0b09;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-social-media {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-social-media .my-social-media-items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-social-media .my-social-media-items .my-icon-social-media {
+    color: white;
+    font-size: 20px;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-social-media .my-text-social-media h4, .sectionEightPartThree .my-container-sectionEightPartThree .my-social-media .my-text-social-media .h4 {
+    color: white;
+    font-famiy: RobotoMedium;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-social-media .my-text-social-media p {
+    color: white;
+    font-famiy: RobotoRegular;
+    opacity: 40%;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight {
+    width: 100%;
+    display: flex;
+    display-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight .email-name {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight .email-name #name, .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight .email-name #Email {
+    padding: 5px;
+    width: 50%;
+    border-radius: 1px;
+    border: 1px solid #625b4b;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 15px;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight .email-name input:focus, .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight .email-name textarea:focus {
+    outline: none;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight .email-name ::placeholder {
+    color: #625b4b;
+    font-family: RobotoRegular;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight #subject {
+    padding: 5px;
+    width: 100%;
+    border-radius: 1px;
+    border: 1px solid #625b4b;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 15px;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight input:focus, .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight textarea:focus {
+    outline: none;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight ::placeholder {
+    color: #625b4b;
+    font-family: RobotoRegular;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight #message {
+    padding: 5px;
+    border-radius: 1px;
+    margin-bottom: 15px;
+    height: 200px;
+    width: 100%;
+    border: 1px solid #625b4b;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 15px;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight input:focus, .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight textarea:focus {
+    outline: none;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight ::placeholder {
+    color: #625b4b;
+    font-family: RobotoRegular;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight button {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 15px;
+    width: 180px;
+  }
+}
+/*Mobile M&L*/
+@media (min-width: 321px) and (max-width: 425px) {
+  .sectionEightPartThree {
+    width: 100%;
+    height: 800px;
+    background-color: #0b0b09;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-social-media {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-social-media .my-social-media-items {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-social-media .my-social-media-items .my-icon-social-media {
+    color: white;
+    font-size: 20px;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-social-media .my-text-social-media h4, .sectionEightPartThree .my-container-sectionEightPartThree .my-social-media .my-text-social-media .h4 {
+    color: white;
+    font-famiy: RobotoMedium;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-social-media .my-text-social-media p {
+    color: white;
+    font-famiy: RobotoRegular;
+    opacity: 40%;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight {
+    width: 100%;
+    display: flex;
+    display-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight .email-name {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight .email-name #name, .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight .email-name #Email {
+    padding: 5px;
+    width: 50%;
+    border-radius: 1px;
+    border: 1px solid #625b4b;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 15px;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight .email-name input:focus, .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight .email-name textarea:focus {
+    outline: none;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight .email-name ::placeholder {
+    color: #625b4b;
+    font-family: RobotoRegular;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight #subject {
+    padding: 5px;
+    width: 100%;
+    border-radius: 1px;
+    border: 1px solid #625b4b;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 15px;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight input:focus, .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight textarea:focus {
+    outline: none;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight ::placeholder {
+    color: #625b4b;
+    font-family: RobotoRegular;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight #message {
+    padding: 5px;
+    border-radius: 1px;
+    margin-bottom: 15px;
+    height: 200px;
+    width: 100%;
+    border: 1px solid #625b4b;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 15px;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight input:focus, .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight textarea:focus {
+    outline: none;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight ::placeholder {
+    color: #625b4b;
+    font-family: RobotoRegular;
+  }
+  .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight button {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 15px;
+    width: 180px;
   }
 }
 
