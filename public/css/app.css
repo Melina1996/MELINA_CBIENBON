@@ -13549,6 +13549,22 @@ textarea.form-control-lg {
   font-family: "RobotoRegular";
   src: url("../../../public/assets/fonts/RobotoRegular.ttf");
 }
+@font-face {
+  font-family: "RobotoSerif-Bold";
+  src: url("../../../public/assets/fonts/RobotoSerif-Bold.ttf");
+}
+@font-face {
+  font-family: "RobotoSerif-Medium";
+  src: url("../../../public/assets/fonts/RobotoSerif-Medium.ttf");
+}
+@font-face {
+  font-family: "RobotoSerif-Regular";
+  src: url("../../../public/assets/fonts/RobotoSerif-Regular.ttf");
+}
+@font-face {
+  font-family: "RobotoSerif-SemiBold";
+  src: url("../../../public/assets/fonts/RobotoSerif-SemiBold.ttf");
+}
 header {
   width: 100%;
   height: 700px;
@@ -13574,9 +13590,8 @@ header .bottom-header .my-banner-text-container {
 }
 header .bottom-header .my-banner-text-container h1, header .bottom-header .my-banner-text-container .h1 {
   color: white;
-}
-header .bottom-header .my-banner-text-container h1 span, header .bottom-header .my-banner-text-container .h1 span {
-  color: ColorGolden;
+  font-family: RobotoBold;
+  font-size: 55px;
 }
 header .bottom-header .my-modal {
   width: 50%;
