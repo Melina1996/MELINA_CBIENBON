@@ -13577,6 +13577,23 @@ header .upper-header {
 header .upper-header #my-navbar {
   background: rgba(14, 16, 15, 0.5);
 }
+header .upper-header #my-navbar .container-fluid .my-name, header .upper-header #my-navbar .container-sm .my-name, header .upper-header #my-navbar .container-md .my-name, header .upper-header #my-navbar .container-lg .my-name, header .upper-header #my-navbar .container-xl .my-name, header .upper-header #my-navbar .container-xxl .my-name {
+  font-size: 25px;
+  margin: 0;
+  padding-left: 10px;
+}
+header .upper-header #my-navbar .container-fluid #navbarSupportedContent ul, header .upper-header #my-navbar .container-sm #navbarSupportedContent ul, header .upper-header #my-navbar .container-md #navbarSupportedContent ul, header .upper-header #my-navbar .container-lg #navbarSupportedContent ul, header .upper-header #my-navbar .container-xl #navbarSupportedContent ul, header .upper-header #my-navbar .container-xxl #navbarSupportedContent ul {
+  display: flex;
+  gap: 15px;
+}
+header .upper-header #my-navbar .container-fluid #navbarSupportedContent ul .nav-item a, header .upper-header #my-navbar .container-sm #navbarSupportedContent ul .nav-item a, header .upper-header #my-navbar .container-md #navbarSupportedContent ul .nav-item a, header .upper-header #my-navbar .container-lg #navbarSupportedContent ul .nav-item a, header .upper-header #my-navbar .container-xl #navbarSupportedContent ul .nav-item a, header .upper-header #my-navbar .container-xxl #navbarSupportedContent ul .nav-item a {
+  font-size: 15px;
+  color: white;
+}
+header .upper-header #my-navbar .container-fluid button .my-btn-p, header .upper-header #my-navbar .container-sm button .my-btn-p, header .upper-header #my-navbar .container-md button .my-btn-p, header .upper-header #my-navbar .container-lg button .my-btn-p, header .upper-header #my-navbar .container-xl button .my-btn-p, header .upper-header #my-navbar .container-xxl button .my-btn-p {
+  color: white;
+  font-size: 13px;
+}
 header .bottom-header {
   width: 100%;
   height: 90%;
@@ -13592,6 +13609,29 @@ header .bottom-header .my-banner-text-container h1, header .bottom-header .my-ba
   color: white;
   font-family: RobotoBold;
   font-size: 55px;
+}
+header .bottom-header .my-banner-text-container h4, header .bottom-header .my-banner-text-container .h4 {
+  color: white;
+  font-family: RobotoSerif-Regular;
+  font-size: 20px;
+}
+header .bottom-header .my-banner-text-container .my-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+header .bottom-header .my-banner-text-container .my-buttons .btn {
+  padding-left: 18px;
+  padding-right: 18px;
+  font-size: 13px;
+}
+header .bottom-header .my-modal .my-play-button {
+  border-radius: 50%;
+}
+header .bottom-header .my-modal .my-icon-play {
+  font-size: 35px;
+  color: white;
+  padding: 30px;
 }
 header .bottom-header .my-modal {
   width: 50%;
