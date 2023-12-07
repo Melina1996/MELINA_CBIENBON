@@ -13723,6 +13723,60 @@ main {
   filter: brightness(30%) contrast(110%);
 }
 
+.sectionTwo {
+  width: 100%;
+  height: 450px;
+  background-color: #0b0b09;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectionTwo .my-container-sectionTwo {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sectionTwo .my-container-sectionTwo h5, .sectionTwo .my-container-sectionTwo .h5 {
+  color: white;
+  font-family: RobotoRegular;
+  font-size: 18px;
+}
+.sectionTwo .my-container-sectionTwo h3, .sectionTwo .my-container-sectionTwo .h3 {
+  color: #cda45d;
+  font-family: RobotoSerif-Medium;
+  font-size: 35px;
+  margin-bottom: 40px;
+}
+.sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo {
+  display: flex;
+  gap: 20px;
+}
+.sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo {
+  background-color: #1a1814;
+  padding: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo h1, .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .h1 {
+  font-family: RobotoBold;
+  font-size: 30px;
+  color: #cda45d;
+}
+.sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo h2, .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .h2 {
+  font-family: RobotoSerif-Medium;
+  font-size: 20px;
+  color: white;
+}
+.sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo p {
+  font-family: RobotoRegular;
+  color: white;
+  opacity: 60%;
+}
+
 /*Laptop*/
 @media (min-width: 768px) and (max-width: 1024px) {
   header {

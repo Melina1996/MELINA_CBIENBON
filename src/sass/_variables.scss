@@ -25,7 +25,6 @@ $spacers : map-merge($spacers, (
 //*Creation of colors in Bootstrap
 $couleur-perso : (
     "golden": #cda45d,
-
 );
 
 $theme-colors : map-merge($theme-colors, $couleur-perso);
