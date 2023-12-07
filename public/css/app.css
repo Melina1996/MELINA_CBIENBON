@@ -13937,6 +13937,37 @@ main {
   width: 412px;
 }
 
+.sectionEight {
+  width: 100%;
+  height: 800px;
+  background-color: #0b0b09;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.sectionEight .my-container-text-sectionEight {
+  width: 90%;
+}
+.sectionEight .my-container-text-sectionEight h5, .sectionEight .my-container-text-sectionEight .h5 {
+  color: white;
+  font-family: RobotoRegular;
+  font-size: 18px;
+}
+.sectionEight .my-container-text-sectionEight h3, .sectionEight .my-container-text-sectionEight .h3 {
+  color: #cda45d;
+  font-family: RobotoSerif-Medium;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.sectionEight .my-map {
+  position: relative;
+}
+.sectionEight .my-map iframe {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+}
+
 /*Laptop*/
 @media (min-width: 768px) and (max-width: 1024px) {
   header {
