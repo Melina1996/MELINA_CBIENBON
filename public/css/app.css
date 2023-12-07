@@ -13865,6 +13865,42 @@ main {
   font-size: 13px;
 }
 
+.sectionSix {
+  width: 100%;
+  height: 700px;
+  background-color: #0b0b09;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.sectionSix .my-text-container-sectionSix {
+  width: 90%;
+}
+.sectionSix .my-text-container-sectionSix h5, .sectionSix .my-text-container-sectionSix .h5 {
+  color: white;
+  font-family: RobotoRegular;
+  font-size: 18px;
+}
+.sectionSix .my-text-container-sectionSix h3, .sectionSix .my-text-container-sectionSix .h3 {
+  color: #cda45d;
+  font-family: RobotoSerif-Medium;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.sectionSix .my-container-sectionSix {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.sectionSix .my-container-sectionSix img {
+  width: 350px;
+  height: 250px;
+  border: 2px solid #3c3939;
+}
+
 /*Laptop*/
 @media (min-width: 768px) and (max-width: 1024px) {
   header {
