@@ -1,0 +1,39 @@
+.sectionOne
+    width: 100%
+    height: 500px
+
+    display: flex
+    justify-content: center
+    align-items: center
+    .my-container-sectionOne
+        width: 90%
+        
+        display: flex
+        justify-content: center
+        align-items: center
+
+        .my-text-sectionOne
+            width: 50%
+        .my-img-sectionOne
+            width: 50%
+
+            display: flex
+            justify-content: center
+            align-items: center
+            img
+                width: 550px
+                height: 400px
+
+
+
+.sectionOne::before
+    width: 100%
+    height: 500px
+    background-image: url("./../../public/assets/img/about-bg.jpg")
+    position: center
+    background-size: cover
+    background-repeat: no-repeat
+    position: absolute
+    content: ""
+    z-index: -1 //damit lege ich den Filter HINTER den Text//
+    filter: brightness(30%) contrast(110%)
