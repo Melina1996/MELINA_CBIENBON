@@ -13800,10 +13800,20 @@ main {
   flex-direction: column;
   justify-content: center;
 }
-.sectionTwo .my-container-sectionTwo h5, .sectionTwo .my-container-sectionTwo .h5 {
+.sectionTwo .my-container-sectionTwo .my-small-header-sectionTwo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.sectionTwo .my-container-sectionTwo .my-small-header-sectionTwo h5, .sectionTwo .my-container-sectionTwo .my-small-header-sectionTwo .h5 {
   color: white;
   font-family: RobotoRegular;
   font-size: 18px;
+}
+.sectionTwo .my-container-sectionTwo .my-small-header-sectionTwo hr {
+  width: 150px;
+  color: white;
+  height: 10px;
 }
 .sectionTwo .my-container-sectionTwo h3, .sectionTwo .my-container-sectionTwo .h3 {
   color: #cda45d;
@@ -13869,10 +13879,20 @@ main {
 .sectionThree .my-container-sectionThree {
   width: 80%;
 }
-.sectionThree .my-container-sectionThree h5, .sectionThree .my-container-sectionThree .h5 {
+.sectionThree .my-container-sectionThree .my-small-header-sectionThree {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.sectionThree .my-container-sectionThree .my-small-header-sectionThree h5, .sectionThree .my-container-sectionThree .my-small-header-sectionThree .h5 {
   color: white;
   font-family: RobotoRegular;
   font-size: 18px;
+}
+.sectionThree .my-container-sectionThree .my-small-header-sectionThree hr {
+  width: 150px;
+  color: white;
+  height: 10px;
 }
 .sectionThree .my-container-sectionThree h3, .sectionThree .my-container-sectionThree .h3 {
   color: #cda45d;
@@ -13960,10 +13980,20 @@ main {
   width: 90%;
   height: 80%;
 }
-.sectionFour .container-sectionFour h5, .sectionFour .container-sectionFour .h5 {
+.sectionFour .container-sectionFour .my-small-header-sectionFour {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.sectionFour .container-sectionFour .my-small-header-sectionFour h5, .sectionFour .container-sectionFour .my-small-header-sectionFour .h5 {
   color: white;
   font-family: RobotoRegular;
   font-size: 18px;
+}
+.sectionFour .container-sectionFour .my-small-header-sectionFour hr {
+  width: 150px;
+  color: white;
+  height: 10px;
 }
 .sectionFour .container-sectionFour h3, .sectionFour .container-sectionFour .h3 {
   color: #cda45d;
@@ -14025,10 +14055,20 @@ main {
   flex-direction: column;
   justify-content: center;
 }
-.sectionFive .my-container-sectionFive h5, .sectionFive .my-container-sectionFive .h5 {
+.sectionFive .my-container-sectionFive .my-small-header-sectionFive {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.sectionFive .my-container-sectionFive .my-small-header-sectionFive h5, .sectionFive .my-container-sectionFive .my-small-header-sectionFive .h5 {
   color: white;
   font-family: RobotoRegular;
   font-size: 18px;
+}
+.sectionFive .my-container-sectionFive .my-small-header-sectionFive hr {
+  width: 150px;
+  color: white;
+  height: 10px;
 }
 .sectionFive .my-container-sectionFive h3, .sectionFive .my-container-sectionFive .h3 {
   color: #cda45d;
@@ -14111,10 +14151,20 @@ main {
 .sectionSix .my-text-container-sectionSix {
   width: 90%;
 }
-.sectionSix .my-text-container-sectionSix h5, .sectionSix .my-text-container-sectionSix .h5 {
+.sectionSix .my-text-container-sectionSix .my-small-header-sectionSix {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.sectionSix .my-text-container-sectionSix .my-small-header-sectionSix h5, .sectionSix .my-text-container-sectionSix .my-small-header-sectionSix .h5 {
   color: white;
   font-family: RobotoRegular;
   font-size: 18px;
+}
+.sectionSix .my-text-container-sectionSix .my-small-header-sectionSix hr {
+  width: 150px;
+  color: white;
+  height: 10px;
 }
 .sectionSix .my-text-container-sectionSix h3, .sectionSix .my-text-container-sectionSix .h3 {
   color: #cda45d;
@@ -14160,10 +14210,20 @@ main {
 .sectionSeven .my-container-sectionSeven {
   width: 90%;
 }
-.sectionSeven .my-container-sectionSeven h5, .sectionSeven .my-container-sectionSeven .h5 {
+.sectionSeven .my-container-sectionSeven .my-small-header-sectionSeven {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.sectionSeven .my-container-sectionSeven .my-small-header-sectionSeven h5, .sectionSeven .my-container-sectionSeven .my-small-header-sectionSeven .h5 {
   color: white;
   font-family: RobotoRegular;
   font-size: 18px;
+}
+.sectionSeven .my-container-sectionSeven .my-small-header-sectionSeven hr {
+  width: 150px;
+  color: white;
+  height: 10px;
 }
 .sectionSeven .my-container-sectionSeven h3, .sectionSeven .my-container-sectionSeven .h3 {
   color: #cda45d;
@@ -14196,10 +14256,20 @@ main {
 .sectionEightPartOne .my-container-text-sectionEightPartOne {
   width: 90%;
 }
-.sectionEightPartOne .my-container-text-sectionEightPartOne h5, .sectionEightPartOne .my-container-text-sectionEightPartOne .h5 {
+.sectionEightPartOne .my-container-text-sectionEightPartOne .my-small-header-sectionEight {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.sectionEightPartOne .my-container-text-sectionEightPartOne .my-small-header-sectionEight h5, .sectionEightPartOne .my-container-text-sectionEightPartOne .my-small-header-sectionEight .h5 {
   color: white;
   font-family: RobotoRegular;
   font-size: 18px;
+}
+.sectionEightPartOne .my-container-text-sectionEightPartOne .my-small-header-sectionEight hr {
+  width: 150px;
+  color: white;
+  height: 10px;
 }
 .sectionEightPartOne .my-container-text-sectionEightPartOne h3, .sectionEightPartOne .my-container-text-sectionEightPartOne .h3 {
   color: #cda45d;
