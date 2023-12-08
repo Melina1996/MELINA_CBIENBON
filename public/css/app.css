@@ -14017,6 +14017,7 @@ main {
 }
 .sectionFive .my-container-sectionFive .my-form input:focus, .sectionFive .my-container-sectionFive .my-form textarea:focus {
   outline: none;
+  box-shadow: 0 0 0 1px #cda45d;
 }
 .sectionFive .my-container-sectionFive .my-form ::placeholder {
   color: #625b4b;
@@ -14530,19 +14531,19 @@ footer .my-bottom-footer {
     flex-direction: column;
     gap: 15px;
   }
-  .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo h1, .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .h1 {
+  .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .my-box-text-sectionTwo h1, .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .my-box-text-sectionTwo .h1 {
     font-family: RobotoBold;
     font-size: 20px;
     color: #cda45d;
     padding: 0;
   }
-  .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo h2, .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .h2 {
+  .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .my-box-text-sectionTwo h2, .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .my-box-text-sectionTwo .h2 {
     font-family: RobotoSerif-Medium;
     font-size: 18px;
     color: white;
     padding: 0;
   }
-  .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo p {
+  .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .my-box-text-sectionTwo p {
     font-family: RobotoRegular;
     color: white;
     font-size: 12px;
@@ -14570,19 +14571,19 @@ footer .my-bottom-footer {
     flex-direction: column;
     gap: 15px;
   }
-  .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo h1, .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .h1 {
+  .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .my-box-text-sectionTwo h1, .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .my-box-text-sectionTwo .h1 {
     font-family: RobotoBold;
     font-size: 20px;
     color: #cda45d;
     padding: 0;
   }
-  .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo h2, .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .h2 {
+  .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .my-box-text-sectionTwo h2, .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .my-box-text-sectionTwo .h2 {
     font-family: RobotoSerif-Medium;
     font-size: 18px;
     color: white;
     padding: 0;
   }
-  .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo p {
+  .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .my-box-text-sectionTwo p {
     font-family: RobotoRegular;
     color: white;
     font-size: 14px;
@@ -14610,19 +14611,19 @@ footer .my-bottom-footer {
     flex-direction: column;
     gap: 15px;
   }
-  .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo h1, .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .h1 {
+  .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .my-box-text-sectionTwo h1, .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .my-box-text-sectionTwo .h1 {
     font-family: RobotoBold;
     font-size: 20px;
     color: #cda45d;
     padding: 0;
   }
-  .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo h2, .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .h2 {
+  .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .my-box-text-sectionTwo h2, .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .my-box-text-sectionTwo .h2 {
     font-family: RobotoSerif-Medium;
     font-size: 18px;
     color: white;
     padding: 0;
   }
-  .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo p {
+  .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .my-box-text-sectionTwo p {
     font-family: RobotoRegular;
     color: white;
     font-size: 14px;
