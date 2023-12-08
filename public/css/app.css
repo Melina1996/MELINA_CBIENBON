@@ -14323,8 +14323,33 @@ footer .my-upper-footer .my-container-footer .footer-part-two {
   width: 25%;
   color: white;
 }
+footer .my-upper-footer .my-container-footer .footer-part-two ul {
+  list-style-type: none;
+  padding: 0;
+}
+footer .my-upper-footer .my-container-footer .footer-part-two ul li .fa-solid {
+  color: #cda45d;
+  font-size: 10px;
+}
+footer .my-upper-footer .my-container-footer .footer-part-two ul li a {
+  text-decoration: none;
+  color: white;
+}
 footer .my-upper-footer .my-container-footer .footer-part-three {
   width: 25%;
+  color: white;
+}
+footer .my-upper-footer .my-container-footer .footer-part-three ul {
+  list-style-type: none;
+  text-indent: 0;
+  padding: 0;
+}
+footer .my-upper-footer .my-container-footer .footer-part-three ul li .fa-solid {
+  color: #cda45d;
+  font-size: 10px;
+}
+footer .my-upper-footer .my-container-footer .footer-part-three ul li a {
+  text-decoration: none;
   color: white;
 }
 footer .my-upper-footer .my-container-footer .footer-part-four {
