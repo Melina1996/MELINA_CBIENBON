@@ -14255,6 +14255,7 @@ main {
 }
 .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight input:focus, .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight textarea:focus {
   outline: none;
+  box-shadow: 0 0 0 1px #cda45d;
 }
 .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight ::placeholder {
   color: #625b4b;
@@ -14269,9 +14270,6 @@ main {
   border: 1px solid #625b4b;
   background-color: rgba(0, 0, 0, 0);
   font-size: 15px;
-}
-.sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight input:focus, .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight textarea:focus {
-  outline: none;
 }
 .sectionEightPartThree .my-container-sectionEightPartThree .my-form-sectionEight ::placeholder {
   color: #625b4b;
