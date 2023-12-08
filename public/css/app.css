@@ -14100,10 +14100,23 @@ main {
   justify-content: center;
   align-items: center;
 }
-.sectionSix .my-container-sectionSix img {
+.sectionSix .my-container-sectionSix .my-gallery-item {
+  width: 350px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.sectionSix .my-container-sectionSix .my-gallery-item img {
   width: 350px;
   height: 250px;
   border: 2px solid #3c3939;
+  transition: transform 1s ease-in-out;
+}
+.sectionSix .my-container-sectionSix .my-gallery-item img:hover {
+  transform: scale(1.05);
 }
 
 .sectionSeven {
