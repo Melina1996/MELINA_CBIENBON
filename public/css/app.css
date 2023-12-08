@@ -14250,11 +14250,15 @@ main {
 .sectionEightPartThree .my-container-sectionEightPartThree .my-social-media .my-social-media-items .my-icon-social-media {
   color: white;
   font-size: 20px;
+  border-radius: 50%;
+  border: 1px solid #cda45d;
+  padding: 15px;
+  background-color: #cda45d;
 }
 .sectionEightPartThree .my-container-sectionEightPartThree .my-social-media .my-text-social-media h4, .sectionEightPartThree .my-container-sectionEightPartThree .my-social-media .my-text-social-media .h4 {
   color: white;
   font-famiy: RobotoMedium;
-  font-size: 25px;
+  font-size: 20px;
   padding: 0;
   margin: 0;
 }
