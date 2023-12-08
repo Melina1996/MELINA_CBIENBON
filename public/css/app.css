@@ -14112,7 +14112,8 @@ main {
 
 .sectionFour {
   width: 100%;
-  height: 700px;
+  height: 650px;
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14163,7 +14164,6 @@ main {
   width: 100%;
   height: 100%;
   background-image: url("./../../public/assets/img/events-bg.jpg");
-  position: center;
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
@@ -14517,6 +14517,180 @@ footer .my-bottom-footer {
     font-size: 14px;
     opacity: 60%;
     padding: 0;
+  }
+}
+/*Laptop*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .sectionFour {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionFour .container-sectionFour {
+    width: 90%;
+    height: 65%;
+  }
+  .sectionFour .container-sectionFour h5, .sectionFour .container-sectionFour .h5 {
+    color: white;
+    font-family: RobotoRegular;
+    font-size: 15px;
+  }
+  .sectionFour .container-sectionFour h3, .sectionFour .container-sectionFour .h3 {
+    color: #cda45d;
+    font-family: RobotoSerif-Medium;
+    font-size: 23px;
+    margin-bottom: 20px;
+  }
+  .sectionFour .container-sectionFour #carouselExampleIndicators {
+    width: 100%;
+    height: 100%;
+  }
+  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col h5, .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .h5 {
+    font-family: RobotoSerif-Medium;
+    font-size: 19px;
+  }
+  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col h4, .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .h4 {
+    font-family: RobotoMedium;
+    font-size: 19px;
+  }
+  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .my-oblique-p {
+    font-family: RobotoRegular;
+    color: white;
+    font-style: oblique;
+    font-size: 14px;
+  }
+  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .my-three-p-carousel {
+    font-family: RobotoRegular;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col p {
+    font-family: RobotoRegular;
+    color: white;
+    font-size: 14px;
+  }
+}
+/*Tablet*/
+@media (min-width: 425px) and (max-width: 768px) {
+  .sectionFour {
+    width: 100%;
+    height: 850px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionFour .container-sectionFour {
+    width: 90%;
+    height: 90%;
+  }
+  .sectionFour .container-sectionFour h5, .sectionFour .container-sectionFour .h5 {
+    color: white;
+    font-family: RobotoRegular;
+    font-size: 15px;
+  }
+  .sectionFour .container-sectionFour h3, .sectionFour .container-sectionFour .h3 {
+    color: #cda45d;
+    font-family: RobotoSerif-Medium;
+    font-size: 23px;
+    margin-bottom: 20px;
+  }
+  .sectionFour .container-sectionFour #carouselExampleIndicators {
+    width: 80%;
+    height: 95%;
+  }
+  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col h5, .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .h5 {
+    font-family: RobotoSerif-Medium;
+    font-size: 19px;
+  }
+  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col h4, .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .h4 {
+    font-family: RobotoMedium;
+    font-size: 19px;
+  }
+  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .my-oblique-p {
+    font-family: RobotoRegular;
+    color: white;
+    font-style: oblique;
+    font-size: 14px;
+  }
+  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .my-three-p-carousel {
+    font-family: RobotoRegular;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col p {
+    font-family: RobotoRegular;
+    color: white;
+    font-size: 14px;
+  }
+}
+/*Mobile M&L*/
+@media (min-width: 321px) and (max-width: 425px) {
+  .sectionFour {
+    width: 100%;
+    height: 850px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionFour .container-sectionFour {
+    width: 90%;
+    height: 90%;
+  }
+  .sectionFour .container-sectionFour h5, .sectionFour .container-sectionFour .h5 {
+    color: white;
+    font-family: RobotoRegular;
+    font-size: 15px;
+  }
+  .sectionFour .container-sectionFour h3, .sectionFour .container-sectionFour .h3 {
+    color: #cda45d;
+    font-family: RobotoSerif-Medium;
+    font-size: 23px;
+    margin-bottom: 20px;
+  }
+  .sectionFour .container-sectionFour #carouselExampleIndicators {
+    width: 80%;
+    height: 90%;
+  }
+  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col h5, .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .h5 {
+    font-family: RobotoSerif-Medium;
+    font-size: 19px;
+  }
+  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col h4, .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .h4 {
+    font-family: RobotoMedium;
+    font-size: 19px;
+  }
+  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .my-oblique-p {
+    font-family: RobotoRegular;
+    color: white;
+    font-style: oblique;
+    font-size: 14px;
+  }
+  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .my-three-p-carousel {
+    font-family: RobotoRegular;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col p {
+    font-family: RobotoRegular;
+    color: white;
+    font-size: 14px;
   }
 }
 /*Laptop*/
