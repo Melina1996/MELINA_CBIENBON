@@ -1,4 +1,4 @@
-//links id//
+//variablen id//
 // let menustarters = document.querySelector("#")
 
 // let starters divs mit jeweiliger id 
@@ -9,13 +9,13 @@
 // ...
 
 // menustarters.addEventListener("click",()=>{
-//     dishSaalds1.classList.toggle("disappear")
+//     dishSaalds1.classList.add("disappear")
 //     ...
 // })
 
 // für alle meine Links
 // menustarters.addEventListener("click",()=>{
-//     dishSaalds1.classList.toggle("disappear")
+//     dishSaalds1.classList.remove("disappear")
 //     ...
 // })
 

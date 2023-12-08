@@ -13726,14 +13726,37 @@ main {
 }
 .sectionOne .my-container-sectionOne .my-img-sectionOne {
   width: 50%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.sectionOne .my-container-sectionOne .my-img-sectionOne img {
-  width: 550px;
+.sectionOne .my-container-sectionOne .my-img-sectionOne .my-image {
+  width: 90%;
   height: 400px;
   border: 4px solid #3c3939;
+  background-image: url("./../../public/assets/img/about.jpg");
+  position: center;
+  background-size: cover;
+  position: relative;
+}
+.sectionOne .my-container-sectionOne .my-img-sectionOne .my-image .my-corner-top-left {
+  position: absolute;
+  top: 3%;
+  left: 3%;
+  border-top: 5px solid #cda45d;
+  border-left: 5px solid #cda45d;
+  width: 50px;
+  height: 50px;
+}
+.sectionOne .my-container-sectionOne .my-img-sectionOne .my-image .my-corner-bottom-right {
+  position: absolute;
+  bottom: 3%;
+  right: 3%;
+  border-bottom: 5px solid #cda45d;
+  border-right: 5px solid #cda45d;
+  width: 50px;
+  height: 50px;
 }
 
 .sectionOne::before {
@@ -15217,7 +15240,16 @@ footer .my-bottom-footer p {
     justify-content: center;
     align-items: center;
   }
-  .sectionSix .my-container-sectionSix img {
+  .sectionSix .my-container-sectionSix .my-gallery-item {
+    width: 250px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionSix .my-container-sectionSix .my-gallery-item img {
     width: 250px;
     height: 160px;
     border: 2px solid #3c3939;
@@ -15255,7 +15287,16 @@ footer .my-bottom-footer p {
     justify-content: center;
     align-items: center;
   }
-  .sectionSix .my-container-sectionSix img {
+  .sectionSix .my-container-sectionSix .my-gallery-item {
+    width: 250px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionSix .my-container-sectionSix .my-gallery-item img {
     width: 250px;
     height: 160px;
     border: 2px solid #3c3939;
@@ -15293,7 +15334,16 @@ footer .my-bottom-footer p {
     justify-content: center;
     align-items: center;
   }
-  .sectionSix .my-container-sectionSix img {
+  .sectionSix .my-container-sectionSix .my-gallery-item {
+    width: 250px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionSix .my-container-sectionSix .my-gallery-item img {
     width: 250px;
     height: 160px;
     border: 2px solid #3c3939;
