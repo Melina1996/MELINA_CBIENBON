@@ -13821,6 +13821,14 @@ main {
   animation: text-moves-up 3s;
 }
 
+.disappear {
+  display: none !important;
+}
+
+.appear {
+  display: flex !important;
+}
+
 .sectionThree {
   width: 100%;
   height: 700px;
