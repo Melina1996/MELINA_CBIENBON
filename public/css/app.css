@@ -13739,6 +13739,7 @@ main {
   position: center;
   background-size: cover;
   position: relative;
+  transition: 1s ease-in-out;
 }
 .sectionOne .my-container-sectionOne .my-img-sectionOne .my-image .my-corner-top-left {
   position: absolute;
@@ -13748,6 +13749,7 @@ main {
   border-left: 5px solid #cda45d;
   width: 50px;
   height: 50px;
+  transition: 1s ease-in-out;
 }
 .sectionOne .my-container-sectionOne .my-img-sectionOne .my-image .my-corner-bottom-right {
   position: absolute;
@@ -13757,6 +13759,18 @@ main {
   border-right: 5px solid #cda45d;
   width: 50px;
   height: 50px;
+  transition: 1s ease-in-out;
+}
+.sectionOne .my-container-sectionOne .my-img-sectionOne .my-image:hover {
+  transform: scale(1.05);
+}
+.sectionOne .my-container-sectionOne .my-img-sectionOne .my-image:hover .my-corner-top-left {
+  top: 1%;
+  left: 1%;
+}
+.sectionOne .my-container-sectionOne .my-img-sectionOne .my-image:hover .my-corner-bottom-right {
+  right: 1%;
+  bottom: 1%;
 }
 
 .sectionOne::before {
@@ -13842,14 +13856,6 @@ main {
 }
 .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo:hover .my-box-text-sectionTwo {
   animation: text-moves-up 3s;
-}
-
-.disappear {
-  display: none !important;
-}
-
-.appear {
-  display: flex !important;
 }
 
 .sectionThree {
@@ -14136,7 +14142,7 @@ main {
   width: 350px;
   height: 250px;
   border: 2px solid #3c3939;
-  transition: transform 1s ease-in-out;
+  transition: 1s ease-in-out;
 }
 .sectionSix .my-container-sectionSix .my-gallery-item img:hover {
   transform: scale(1.05);
