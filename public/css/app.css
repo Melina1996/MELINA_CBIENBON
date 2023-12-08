@@ -13613,6 +13613,9 @@ header .upper-header #my-navbar .container-fluid #navbarSupportedContent ul .nav
   font-size: 15px;
   color: white;
 }
+header .upper-header #my-navbar .container-fluid #navbarSupportedContent ul .nav-item a:hover, header .upper-header #my-navbar .container-sm #navbarSupportedContent ul .nav-item a:hover, header .upper-header #my-navbar .container-md #navbarSupportedContent ul .nav-item a:hover, header .upper-header #my-navbar .container-lg #navbarSupportedContent ul .nav-item a:hover, header .upper-header #my-navbar .container-xl #navbarSupportedContent ul .nav-item a:hover, header .upper-header #my-navbar .container-xxl #navbarSupportedContent ul .nav-item a:hover {
+  color: #cda45d;
+}
 header .upper-header #my-navbar .container-fluid button .my-btn-p, header .upper-header #my-navbar .container-sm button .my-btn-p, header .upper-header #my-navbar .container-md button .my-btn-p, header .upper-header #my-navbar .container-lg button .my-btn-p, header .upper-header #my-navbar .container-xl button .my-btn-p, header .upper-header #my-navbar .container-xxl button .my-btn-p {
   color: white;
   font-size: 13px;
@@ -13782,22 +13785,40 @@ main {
   padding-bottom: 40px;
   display: flex;
   flex-direction: column;
+}
+.sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .my-box-text-sectionTwo {
+  display: flex;
+  flex-direction: column;
   gap: 15px;
 }
-.sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo h1, .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .h1 {
+.sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .my-box-text-sectionTwo h1, .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .my-box-text-sectionTwo .h1 {
   font-family: RobotoBold;
   font-size: 30px;
   color: #cda45d;
 }
-.sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo h2, .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .h2 {
+.sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .my-box-text-sectionTwo h2, .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .my-box-text-sectionTwo .h2 {
   font-family: RobotoSerif-Medium;
   font-size: 20px;
   color: white;
 }
-.sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo p {
+.sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo .my-box-text-sectionTwo p {
   font-family: RobotoRegular;
   color: white;
   opacity: 60%;
+}
+.sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo:hover {
+  background-color: #cda45d;
+}
+.sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo:hover h1, .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo:hover .h1 {
+  color: white;
+}
+@keyframes text-moves-up {
+  50% {
+    transform: translateY(-15px);
+  }
+}
+.sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo:hover .my-box-text-sectionTwo {
+  animation: text-moves-up 3s;
 }
 
 .sectionThree {
@@ -13829,46 +13850,65 @@ main {
   justify-content: center;
   align-items: center;
   gap: 20px;
+  position: relative;
 }
 .sectionThree .my-container-sectionThree .my-container-menu .my-links-sectionThree {
+  width: 100%;
+  height: 100%;
   display: flex;
-  gap: 20px;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
 }
 .sectionThree .my-container-sectionThree .my-container-menu .my-links-sectionThree a {
   text-decoration: none;
   color: white;
+  font-family: RobotoSerif-Regular;
 }
-.sectionThree .my-container-sectionThree .my-container-menu .my-links-sectionThree .my-all-link:hover {
+.sectionThree .my-container-sectionThree .my-container-menu .my-links-sectionThree a:hover {
   color: #cda45d;
 }
-.sectionThree .my-container-sectionThree .my-container-menu .my-links-sectionThree .my-starters-link:hover {
-  color: #cda45d;
-}
-.sectionThree .my-container-sectionThree .my-container-menu .my-links-sectionThree .my-salads-link:hover {
-  color: #cda45d;
-}
-.sectionThree .my-container-sectionThree .my-container-menu .my-links-sectionThree .my-specialty-link:hover {
-  color: #cda45d;
-}
-.sectionThree .my-container-sectionThree .my-container-menu .part-all {
-  width: 100px;
-  height: 100px;
+.sectionThree .my-container-sectionThree .my-container-menu .my-links-sectionThree .my-all-link .part-all {
+  width: 500px;
+  height: 200px;
   background-color: red;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  display: block;
 }
-.sectionThree .my-container-sectionThree .my-container-menu .part-starters {
-  width: 100px;
-  height: 100px;
-  background-color: red;
+.sectionThree .my-container-sectionThree .my-container-menu .my-links-sectionThree .my-all-link:focus .part-all {
+  display: block;
 }
-.sectionThree .my-container-sectionThree .my-container-menu .part-salads {
-  width: 100px;
-  height: 100px;
+.sectionThree .my-container-sectionThree .my-container-menu .my-links-sectionThree .my-starters-link .part-starters {
+  width: 200px;
+  height: 200px;
   background-color: red;
+  display: none;
+  position: absolute;
 }
-.sectionThree .my-container-sectionThree .my-container-menu .part-specialty {
-  width: 100px;
-  height: 100px;
+.sectionThree .my-container-sectionThree .my-container-menu .my-links-sectionThree .my-starters-link:focus .part-starters {
+  display: block;
+}
+.sectionThree .my-container-sectionThree .my-container-menu .my-links-sectionThree .my-salads-link .part-salads {
+  width: 200px;
+  height: 200px;
   background-color: red;
+  display: none;
+  position: absolute;
+}
+.sectionThree .my-container-sectionThree .my-container-menu .my-links-sectionThree .my-salads-link:focus .part-salads {
+  display: block;
+}
+.sectionThree .my-container-sectionThree .my-container-menu .my-links-sectionThree .my-specialty-link .part-specialty {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  display: none;
+  position: absolute;
+}
+.sectionThree .my-container-sectionThree .my-container-menu .my-links-sectionThree .my-specialty-link:focus .part-specialty {
+  display: block;
 }
 
 .sectionFour {
