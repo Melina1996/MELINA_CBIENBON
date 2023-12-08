@@ -14371,7 +14371,17 @@ footer .my-upper-footer .my-container-footer .footer-part-one .my-second-footer-
 }
 footer .my-upper-footer .my-container-footer .footer-part-one .footer-icons {
   display: flex;
-  gap: 20px;
+  gap: 10px;
+}
+footer .my-upper-footer .my-container-footer .footer-part-one .footer-icons .my-footer-icon {
+  border-radius: 50%;
+  border: 1px solid #27251f;
+  padding: 10px;
+  background-color: #27251f;
+  font-size: 15px;
+}
+footer .my-upper-footer .my-container-footer .footer-part-one .footer-icons .my-footer-icon:hover {
+  background-color: #cda45d;
 }
 footer .my-upper-footer .my-container-footer .footer-part-two {
   width: 25%;
