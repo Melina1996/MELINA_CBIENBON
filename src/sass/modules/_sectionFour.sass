@@ -1,0 +1,23 @@
+.sectionFour
+    width: 100%
+    height: 600px
+
+    display: flex
+    justify-content: center
+    align-items: center
+    .container-sectionFour
+        width: 90%
+        height: 100%
+
+
+.sectionFour::before
+    width: 100%
+    height: 100%
+    background-image: url("./../../public/assets/img/events-bg.jpg")
+    position: center
+    background-size: cover
+    background-repeat: no-repeat
+    position: absolute
+    content: ""
+    z-index: -1 //damit lege ich den Filter HINTER den Text//
+    filter: brightness(30%) contrast(110%)
