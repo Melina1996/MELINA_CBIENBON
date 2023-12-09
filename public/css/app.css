@@ -13840,11 +13840,12 @@ main {
   color: white;
   font-family: RobotoRegular;
   font-size: 18px;
+  padding: 0;
+  margin: 0;
 }
 .sectionTwo .my-container-sectionTwo .my-small-header-sectionTwo hr {
   width: 150px;
-  color: white;
-  height: 10px;
+  border-top: 2px solid white;
 }
 .sectionTwo .my-container-sectionTwo h3, .sectionTwo .my-container-sectionTwo .h3 {
   color: #cda45d;
@@ -13890,7 +13891,7 @@ main {
 .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo:hover h1, .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo:hover .h1 {
   color: white;
 }
-@keyframes text-moves-up {
+@keyframes text-moves-up //my animation to move up the text// {
   50% {
     transform: translateY(-15px);
   }
@@ -13920,11 +13921,12 @@ main {
   color: white;
   font-family: RobotoRegular;
   font-size: 18px;
+  padding: 0;
+  margin: 0;
 }
 .sectionThree .my-container-sectionThree .my-small-header-sectionThree hr {
   width: 150px;
-  color: white;
-  height: 10px;
+  border-top: 2px solid white;
 }
 .sectionThree .my-container-sectionThree h3, .sectionThree .my-container-sectionThree .h3 {
   color: #cda45d;
@@ -14039,11 +14041,12 @@ main {
   color: white;
   font-family: RobotoRegular;
   font-size: 18px;
+  padding: 0;
+  margin: 0;
 }
 .sectionFour .container-sectionFour .my-small-header-sectionFour hr {
   width: 150px;
-  color: white;
-  height: 10px;
+  border-top: 2px solid white;
 }
 .sectionFour .container-sectionFour h3, .sectionFour .container-sectionFour .h3 {
   color: #cda45d;
@@ -14122,11 +14125,12 @@ main {
   color: white;
   font-family: RobotoRegular;
   font-size: 18px;
+  padding: 0;
+  margin: 0;
 }
 .sectionFive .my-container-sectionFive .my-small-header-sectionFive hr {
   width: 150px;
-  color: white;
-  height: 10px;
+  border-top: 2px solid white;
 }
 .sectionFive .my-container-sectionFive h3, .sectionFive .my-container-sectionFive .h3 {
   color: #cda45d;
@@ -14218,11 +14222,12 @@ main {
   color: white;
   font-family: RobotoRegular;
   font-size: 18px;
+  padding: 0;
+  margin: 0;
 }
 .sectionSix .my-text-container-sectionSix .my-small-header-sectionSix hr {
   width: 150px;
-  color: white;
-  height: 10px;
+  border-top: 2px solid white;
 }
 .sectionSix .my-text-container-sectionSix h3, .sectionSix .my-text-container-sectionSix .h3 {
   color: #cda45d;
@@ -14277,11 +14282,12 @@ main {
   color: white;
   font-family: RobotoRegular;
   font-size: 18px;
+  padding: 0;
+  margin: 0;
 }
 .sectionSeven .my-container-sectionSeven .my-small-header-sectionSeven hr {
   width: 150px;
-  color: white;
-  height: 10px;
+  border-top: 2px solid white;
 }
 .sectionSeven .my-container-sectionSeven h3, .sectionSeven .my-container-sectionSeven .h3 {
   color: #cda45d;
@@ -14372,11 +14378,12 @@ main {
   color: white;
   font-family: RobotoRegular;
   font-size: 18px;
+  padding: 0;
+  margin: 0;
 }
 .sectionEightPartOne .my-container-text-sectionEightPartOne .my-small-header-sectionEight hr {
   width: 150px;
-  color: white;
-  height: 10px;
+  border-top: 2px solid white;
 }
 .sectionEightPartOne .my-container-text-sectionEightPartOne h3, .sectionEightPartOne .my-container-text-sectionEightPartOne .h3 {
   color: #cda45d;

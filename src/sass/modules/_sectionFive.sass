@@ -21,10 +21,11 @@
                 color: white
                 font-family: RobotoRegular
                 font-size: 18px
+                padding: 0
+                margin: 0
             hr
                 width: 150px
-                color: white
-                height: 10px
+                border-top: 2px solid white
 
         h3
             color: $ColorGolden
@@ -39,17 +40,17 @@
             justify-content: space-between
             flex-wrap: wrap
             gap: 10px
-            #name, #Email, #phone
+            #name, #Email, #phone //add the respective demanded properties to my input fields//
                 padding: 5px
                 width: 420px
                 border-radius: 1px
                 border: 1px solid #625b4b
                 background-color: rgba(0, 0, 0, 0)
                 font-size: 15px
-            input:focus, textarea:focus 
+            input:focus, textarea:focus //add my specific input effect to the fields//
                 outline: none
                 box-shadow: 0 0 0 1px $ColorGolden
-            ::placeholder
+            ::placeholder //change color of font of my placeholder//
                 color: #625b4b
                 font-family: RobotoRegular
             #date, #time, #number

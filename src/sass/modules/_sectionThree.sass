@@ -17,10 +17,11 @@
                 color: white
                 font-family: RobotoRegular
                 font-size: 18px
+                padding: 0
+                margin: 0
             hr
                 width: 150px
-                color: white
-                height: 10px
+                border-top: 2px solid white
         h3
             color: $ColorGolden
             font-family: RobotoSerif-Medium
@@ -35,7 +36,7 @@
             align-items: center
             gap: 20px
             position: relative
-            .my-buttons-sectionThree
+            .my-buttons-sectionThree //all the buttons that are clicked to show the menus//
                 width: 100%
                 height: 100%
 
@@ -49,16 +50,16 @@
                     p
                         font-family: RobotoSerif-Regular
                         color: white
-                button p:hover
+                button p:hover //on hover text turns golden//
                     color: $ColorGolden
             .my-dishes
                 width: 100%
 
                 display: flex
-                flex-wrap: wrap
+                flex-wrap: wrap //plates automtically switch into next line if not enough space, see space defined below//
                 gap: 20px
                 .my-dish
-                    width: 48%
+                    width: 48% //each of the plates gets around half of the width so I can place two next to each other//
 
                     display: flex
                     align-items: center
@@ -88,7 +89,7 @@
                             p
                                 margin: 0
                                 padding: 0
-                                position: absolute
+                                position: absolute //position my price on the right end of my div//
                                 right: 0
                                 color: $ColorGolden
                         .description-bottom-part
@@ -97,7 +98,7 @@
                             font-style: oblique
                             opacity: 60%
             
-.disappear
+.disappear //for my javascript event: by "add" the property "display: none" is applied, with "remove" I cancel it and my elements are shown on the site//
     display: none !important
                
 

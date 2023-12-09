@@ -12,18 +12,19 @@
         display: flex
         flex-direction: column
         justify-content: center
-        .my-small-header-sectionTwo
-            display: flex
-            align-items: center
+        .my-small-header-sectionTwo //create a div for the small header and the line//
+            display: flex //small header and line next to each other//
+            align-items: center //centers my text and the line//
             gap: 8px
             h5
                 color: white
                 font-family: RobotoRegular
                 font-size: 18px
+                padding: 0
+                margin: 0
             hr
                 width: 150px
-                color: white
-                height: 10px
+                border-top: 2px solid white
         h3
             color: $ColorGolden
             font-family: RobotoSerif-Medium
@@ -58,14 +59,14 @@
                         font-family: RobotoRegular
                         color: white
                         opacity: 60%
-            .my-box-sectionTwo:hover
+            .my-box-sectionTwo:hover //hover for change of color//
                 background-color: $ColorGolden
                 h1
                     color: white
-            @keyframes text-moves-up 
+            @keyframes text-moves-up //my animation to move up the text//
                 50% 
                     transform: translateY(-15px)
-            .my-box-sectionTwo:hover .my-box-text-sectionTwo
+            .my-box-sectionTwo:hover .my-box-text-sectionTwo //call the animation on hover//
                 animation: text-moves-up 3s
         
  
