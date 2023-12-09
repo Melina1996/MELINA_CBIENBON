@@ -71,3 +71,25 @@ specialty.addEventListener("click",()=>{
     mySpecialtyThree.classList.remove("disappear")
 })
 
+//Button on scroll//
+
+//creation of variable for my button (called with its id)//
+
+let mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+//when the scroll is more than 20px from the top of the site, the button will disappear//
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+
+//when the user clicks on it, the scroll goes back to top of the page//
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
