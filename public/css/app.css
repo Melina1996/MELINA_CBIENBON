@@ -13684,7 +13684,7 @@ header .bottom-header .my-modal .my-play-button::after {
   border-radius: 50%;
   animation: pulse 2s infinite linear;
 }
-@keyframes pulse {
+@keyframes pulse //animation// {
   0% {
     opacity: 0;
     transform: scale 0.95;

@@ -2,20 +2,20 @@ header
     width: 100%
     height: 700px
     position: relative
-    .modal
+    .modal //in order to place it correctly, I checked my property- values with the inspector//
         .modal-dialog
-            height: 100%
+            height: 100% 
             .modal-content
-                position: absolute
+                position: absolute //absolute to the header section//
                 margin: 0
                 top: 50%
                 left: 50%
-                transform: translate(-50%,-50%)
+                transform: translate(-50%,-50%) //position the modal in the centre of the screen independent from the other elements//
                 width: auto
                 .modal-body
                     padding:0
                     margin: 0
-                    width: 900px
+                    width: 900px //to define width of video-content//
                     video
                         width: 100%
                         height: 100%
@@ -41,7 +41,7 @@ header
                             a
                                 font-size: 15px
                                 color: white
-                            a:hover
+                            a:hover //hover change colors//
                                 color: $ColorGolden
                 
                 button
@@ -82,19 +82,19 @@ header
                     .my-btn-p
                     font-size: 13px
 
-        .my-modal
+        .my-modal //section for the button of my modal//
             width: 50%
             height: 100%
 
             display: flex
             justify-content: center
             align-items: center
-            .my-play-button
+            .my-play-button //create my button//
                 width: 80px
                 height: 80px
                 background-color: #cca35e
                 border-radius: 100%
-                box-shadow: 0px 0px 0px 15px rgba(101,76,45,0.3)
+                box-shadow: 0px 0px 0px 15px rgba(101,76,45,0.3) //makes border transparent//
                 position: absolute
                 display: flex
                 justify-content: center
@@ -102,7 +102,7 @@ header
                 img
                     width: 30px
                     height: 30px  
-            .my-play-button::after
+            .my-play-button::after //add a ring to my button that will pulse later on//
                 position: absolute
                 content: ""
                 top: 0
@@ -111,8 +111,8 @@ header
                 bottom: 0
                 border: 4px solid $ColorGolden
                 border-radius: 50%
-                animation: pulse 2s infinite linear
-            @keyframes pulse
+                animation: pulse 2s infinite linear //call the animation//
+            @keyframes pulse //animation//
                 0%
                     opacity: 0
                     transform: scale (0.95)
@@ -123,7 +123,7 @@ header
                     transform: scale(1.3)
                 
 
-header::before
+header::before //apply filter-property to my background-image only, not to the text-items//
     background-image: url("./../../public/assets/img/hero-bg.jpg")
     background-size: cover
     background-repeat: no-repeat
