@@ -5,9 +5,10 @@
 
     display: flex
     justify-content: center
-    align-items: center
+    align-items: flex-start
     .my-container-sectionThree
-        width: 80%
+        width: 90%
+        margin-top: 30px
         .my-small-header-sectionThree
             display: flex
             align-items: center
@@ -34,7 +35,7 @@
             align-items: center
             gap: 20px
             position: relative
-            .my-links-sectionThree
+            .my-buttons-sectionThree
                 width: 100%
                 height: 100%
 
@@ -42,56 +43,61 @@
                 gap: 25px
                 align-items: center
                 justify-content: center
-                a
-                    text-decoration: none
+                button
+                    background-color: #1a1814
                     color: white
+                    border: none
                     font-family: RobotoSerif-Regular
-                a:hover
+                button:hover
                     color: $ColorGolden
-                .my-all-link
-                    .part-all
-                        width: 500px
-                        height: 200px
-                        background-color: red
-                        margin: 0
-                        top: 50%
-                        left: 50%
-                        display: block
+            .my-dishes
+                width: 100%
 
-                .my-all-link:focus .part-all
-                    display: block
-                .my-starters-link
-                    .part-starters
-                        width: 200px
-                        height: 200px
-                        background-color: red
-                        display: none
-                        position: absolute
-                .my-starters-link:focus .part-starters
-                    display: block
-                .my-salads-link
-                    .part-salads
-                        width: 200px
-                        height: 200px
-                        background-color: red
-                        display: none
-                        position: absolute
-                .my-salads-link:focus .part-salads
-                    display: block
-                .my-specialty-link
-                    .part-specialty
-                        width: 200px
-                        height: 200px
-                        background-color: red
-                        display: none
-                        position: absolute
-                .my-specialty-link:focus .part-specialty
-                    display: block
+                display: flex
+                flex-wrap: wrap
+                gap: 20px
+                .my-dish
+                    width: 48%
 
-
+                    display: flex
+                    align-items: center
+                    .my-image-menu
+                        width: 16%
+                        img
+                            width: 80px
+                            height: 80px
+                            border-radius: 50%
+                            border: 5px solid #484642
+                    .my-dish-description
+                        width: 84%
+                        .description-upper-part
+                            color: white
+                            display: flex
+                            align-items: center
+                            position: relative
+                            h3
+                                color: white
+                                font-family: RobotoMedium
+                                font-size: 16px
+                                padding: 0
+                                margin: 0
+                            hr
+                                width: 380px
+                                border-top: dashed 1px white
+                            p
+                                margin: 0
+                                padding: 0
+                                position: absolute
+                                right: 0
+                                color: $ColorGolden
+                        .description-bottom-part
+                            color: white
+                            font-family: RobotoRegular
+                            font-style: oblique
+                            opacity: 60%
             
-// .disappear
-//     display: none !important
+.disappear
+    display: none !important
                
 
 
