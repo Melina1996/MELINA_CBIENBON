@@ -33,12 +33,12 @@
         flex-wrap: wrap
         justify-content: center
         align-items: center
-        .my-gallery-item
+        .my-gallery-item //needed, if not, image would get bigger and leave its "box"//
             width: 350px
             position: relative
             overflow: hidden
 
-            display: flex
+            display: flex //images automatically move into next line when space gets smaller//
             flex-wrap: wrap
             justify-content: center
             align-items: center
@@ -48,7 +48,7 @@
                 border: 2px solid #3c3939
                 transition: 1s ease-in-out
             img:hover
-                transform: scale(1.05)
+                transform: scale(1.05) //image gets bigger on mousehover//
                 
 
 
