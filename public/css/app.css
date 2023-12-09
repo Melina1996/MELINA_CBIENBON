@@ -14648,10 +14648,7 @@ footer .my-upper-footer .my-container-footer .footer-part-four form .my-button-f
   position: absolute;
   right: 0;
 }
-footer .my-upper-footer .my-container-footer .footer-part-four form:focus-within {
-  outline: 2px solid black;
-}
-footer .my-upper-footer .my-container-footer .footer-part-four form:focus-within input:focus {
+footer .my-upper-footer .my-container-footer .footer-part-four form input:focus {
   outline: none;
 }
 footer .my-bottom-footer {

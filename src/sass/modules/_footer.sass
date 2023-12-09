@@ -1,7 +1,7 @@
 footer 
     width: 100%
     height: 500px
-    .my-upper-footer
+    .my-upper-footer //upper and lower part of footer in order to get two sections//
         height: 400px
         background-color: #0d0b09
         border-top: 1px solid #443f34
@@ -15,7 +15,7 @@ footer
             display: flex
             justify-content: center
             align-items: flex-start
-            .footer-part-one
+            .footer-part-one 
                 width: 25%
                 color: white
 
@@ -43,7 +43,7 @@ footer
                         padding: 10px
                         background-color: #27251f
                         font-size: 15px
-                    .my-footer-icon:hover
+                    .my-footer-icon:hover //hover change colors of icons//
                         background-color: $ColorGolden
             .footer-part-two
                 width: 25%
@@ -52,8 +52,8 @@ footer
                     font-family: RobotoSerif-Medium
                     font-size: 16px
                 ul
-                    list-style-type: none
-                    padding: 0
+                    list-style-type: none //replace list bullet with icon//
+                    padding: 0 //to remove list indent//
                     display: flex
                     flex-direction: column
                     gap: 15px
@@ -99,9 +99,9 @@ footer
                     display: flex
                     border: 1px solid #81683c
                     border-radius: 20px
-                    position: relative
+                    position: relative //in order to place button in absolute position to its right//
                     input
-                        flex-grow: 2
+                        flex-grow: 2 //input uses all the available space//
                         border: none
                         border-radius: 20px
                         background-color: #27251f
@@ -116,10 +116,8 @@ footer
                         padding-right: 20px
                         position: absolute
                         right: 0
-                form:focus-within  
-                    outline: 2px solid black 
                     input:focus
-                        outline: none
+                        outline: none //to delete the standard input effects//
                    
 
     .my-bottom-footer
