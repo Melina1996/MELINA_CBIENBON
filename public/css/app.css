@@ -13887,7 +13887,7 @@ main {
 
 .sectionThree {
   width: 100%;
-  height: 700px;
+  height: 750px;
   background-color: #1a1814;
   display: flex;
   justify-content: center;
@@ -13937,11 +13937,13 @@ main {
 }
 .sectionThree .my-container-sectionThree .my-container-menu .my-buttons-sectionThree button {
   background-color: #1a1814;
-  color: white;
   border: none;
-  font-family: RobotoSerif-Regular;
 }
-.sectionThree .my-container-sectionThree .my-container-menu .my-buttons-sectionThree button:hover {
+.sectionThree .my-container-sectionThree .my-container-menu .my-buttons-sectionThree button p {
+  font-family: RobotoSerif-Regular;
+  color: white;
+}
+.sectionThree .my-container-sectionThree .my-container-menu .my-buttons-sectionThree button p:hover {
   color: #cda45d;
 }
 .sectionThree .my-container-sectionThree .my-container-menu .my-dishes {
@@ -14319,7 +14321,7 @@ main {
 }
 .sectionSeven .my-container-sectionSeven .my-cards-chefs .card .card-content .my-icons-chefs {
   display: flex;
-  gap: 10px;
+  gap: 15px;
   align-items: center;
   justify-content: center;
 }
@@ -14977,6 +14979,369 @@ footer .my-bottom-footer p {
     font-size: 14px;
     opacity: 60%;
     padding: 0;
+  }
+}
+/*Laptop*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .sectionThree {
+    width: 100%;
+    height: 750px;
+    background-color: #1a1814;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .sectionThree .my-container-sectionThree {
+    width: 90%;
+    margin-top: 30px;
+  }
+  .sectionThree .my-container-sectionThree .my-small-header-sectionThree {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .sectionThree .my-container-sectionThree .my-small-header-sectionThree h5, .sectionThree .my-container-sectionThree .my-small-header-sectionThree .h5 {
+    color: white;
+    font-family: RobotoRegular;
+    font-size: 18px;
+  }
+  .sectionThree .my-container-sectionThree .my-small-header-sectionThree hr {
+    width: 100px;
+    color: white;
+    height: 10px;
+  }
+  .sectionThree .my-container-sectionThree h3, .sectionThree .my-container-sectionThree .h3 {
+    color: #cda45d;
+    font-family: RobotoSerif-Medium;
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-buttons-sectionThree {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-buttons-sectionThree button {
+    background-color: #1a1814;
+    border: none;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-buttons-sectionThree button p {
+    font-family: RobotoSerif-Regular;
+    color: white;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-buttons-sectionThree button:hover {
+    color: #cda45d;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish {
+    width: 48%;
+    display: flex;
+    align-items: center;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-image-menu {
+    width: 20%;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-image-menu img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid #484642;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-dish-description {
+    width: 80%;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-dish-description .description-upper-part {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-dish-description .description-upper-part h3, .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-dish-description .description-upper-part .h3 {
+    color: white;
+    font-family: RobotoMedium;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 0;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-dish-description .description-upper-part hr {
+    width: 250px;
+    border-top: dashed 1px white;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-dish-description .description-upper-part p {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    color: #cda45d;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-dish-description .description-bottom-part {
+    color: white;
+    font-family: RobotoRegular;
+    font-style: oblique;
+    opacity: 60%;
+    font-size: 15px;
+  }
+}
+/*Tablet*/
+@media (min-width: 425px) and (max-width: 768px) {
+  .sectionThree {
+    width: 100%;
+    height: 1100px;
+    background-color: #1a1814;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .sectionThree .my-container-sectionThree {
+    width: 90%;
+    margin-top: 30px;
+  }
+  .sectionThree .my-container-sectionThree .my-small-header-sectionThree {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .sectionThree .my-container-sectionThree .my-small-header-sectionThree h5, .sectionThree .my-container-sectionThree .my-small-header-sectionThree .h5 {
+    color: white;
+    font-family: RobotoRegular;
+    font-size: 18px;
+  }
+  .sectionThree .my-container-sectionThree .my-small-header-sectionThree hr {
+    width: 100px;
+    color: white;
+    height: 10px;
+  }
+  .sectionThree .my-container-sectionThree h3, .sectionThree .my-container-sectionThree .h3 {
+    color: #cda45d;
+    font-family: RobotoSerif-Medium;
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-buttons-sectionThree {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-buttons-sectionThree button {
+    background-color: #1a1814;
+    border: none;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-buttons-sectionThree button p {
+    font-family: RobotoSerif-Regular;
+    color: white;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-buttons-sectionThree button:hover {
+    color: #cda45d;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-image-menu {
+    width: 15%;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-image-menu img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 5px solid #484642;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-dish-description {
+    width: 85%;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-dish-description .description-upper-part {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-dish-description .description-upper-part h3, .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-dish-description .description-upper-part .h3 {
+    color: white;
+    font-family: RobotoMedium;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 0;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-dish-description .description-upper-part hr {
+    width: 500px;
+    border-top: dashed 1px white;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-dish-description .description-upper-part p {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    color: #cda45d;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-dish-description .description-bottom-part {
+    color: white;
+    font-family: RobotoRegular;
+    font-style: oblique;
+    opacity: 60%;
+    font-size: 15px;
+  }
+}
+/*Mobile M&L*/
+@media (min-width: 321px) and (max-width: 425px) {
+  .sectionThree {
+    width: 100%;
+    height: 1100px;
+    background-color: #1a1814;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .sectionThree .my-container-sectionThree {
+    width: 90%;
+    margin-top: 30px;
+  }
+  .sectionThree .my-container-sectionThree .my-small-header-sectionThree {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .sectionThree .my-container-sectionThree .my-small-header-sectionThree h5, .sectionThree .my-container-sectionThree .my-small-header-sectionThree .h5 {
+    color: white;
+    font-family: RobotoRegular;
+    font-size: 16px;
+  }
+  .sectionThree .my-container-sectionThree .my-small-header-sectionThree hr {
+    width: 100px;
+    color: white;
+    height: 10px;
+  }
+  .sectionThree .my-container-sectionThree h3, .sectionThree .my-container-sectionThree .h3 {
+    color: #cda45d;
+    font-family: RobotoSerif-Medium;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-buttons-sectionThree {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    justify-content: center;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-buttons-sectionThree button {
+    background-color: #1a1814;
+    border: none;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-buttons-sectionThree button p {
+    font-family: RobotoSerif-Regular;
+    color: white;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-buttons-sectionThree button:hover {
+    color: #cda45d;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish {
+    width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-image-menu {
+    width: 20%;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-image-menu img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 5px solid #484642;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-dish-description {
+    width: 80%;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-dish-description .description-upper-part {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-dish-description .description-upper-part h3, .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-dish-description .description-upper-part .h3 {
+    color: white;
+    font-family: RobotoMedium;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 0;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-dish-description .description-upper-part hr {
+    width: 210px;
+    border-top: dashed 1px white;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-dish-description .description-upper-part p {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    color: #cda45d;
+  }
+  .sectionThree .my-container-sectionThree .my-container-menu .my-dishes .my-dish .my-dish-description .description-bottom-part {
+    color: white;
+    font-family: RobotoRegular;
+    font-style: oblique;
+    opacity: 60%;
+    font-size: 13px;
   }
 }
 /*Laptop*/
