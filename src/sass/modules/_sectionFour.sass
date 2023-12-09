@@ -1,6 +1,6 @@
 .sectionFour
     width: 100%
-    height: 650px
+    height: 700px
     position: relative
 
     display: flex
@@ -30,6 +30,12 @@
         #carouselExampleIndicators
             width: 100%
             height: 90%
+            .carousel-indicators > button
+                height: 13px
+                width: 13px
+                border-radius: 50%
+            .carousel-indicators > button:hover 
+                background-color: $ColorGolden
             .carousel-inner
                 .carousel-item
                     .row

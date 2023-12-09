@@ -13987,7 +13987,7 @@ main {
 
 .sectionFour {
   width: 100%;
-  height: 650px;
+  height: 700px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -14021,6 +14021,14 @@ main {
 .sectionFour .container-sectionFour #carouselExampleIndicators {
   width: 100%;
   height: 90%;
+}
+.sectionFour .container-sectionFour #carouselExampleIndicators .carousel-indicators > button {
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+}
+.sectionFour .container-sectionFour #carouselExampleIndicators .carousel-indicators > button:hover {
+  background-color: #cda45d;
 }
 .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col h5, .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .h5 {
   font-family: RobotoSerif-Medium;
@@ -15554,10 +15562,20 @@ footer .my-bottom-footer p {
   .sectionSeven .my-container-sectionSeven {
     width: 90%;
   }
-  .sectionSeven .my-container-sectionSeven h5, .sectionSeven .my-container-sectionSeven .h5 {
+  .sectionSeven .my-container-sectionSeven .my-small-header-sectionSeven {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .sectionSeven .my-container-sectionSeven .my-small-header-sectionSeven h5, .sectionSeven .my-container-sectionSeven .my-small-header-sectionSeven .h5 {
     color: white;
     font-family: RobotoRegular;
     font-size: 18px;
+  }
+  .sectionSeven .my-container-sectionSeven .my-small-header-sectionSeven hr {
+    width: 150px;
+    color: white;
+    height: 10px;
   }
   .sectionSeven .my-container-sectionSeven h3, .sectionSeven .my-container-sectionSeven .h3 {
     color: #cda45d;
@@ -15565,24 +15583,71 @@ footer .my-bottom-footer p {
     font-size: 35px;
     margin-bottom: 20px;
   }
-  .sectionSeven .my-container-sectionSeven .my-chefs {
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    gap: 20px;
+    gap: 10px;
   }
-  .sectionSeven .my-container-sectionSeven .my-chefs img {
-    height: 250px;
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card {
+    position: relative;
     width: 290px;
+    height: 290px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 0;
+  }
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card .card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background-color: rgba(13, 14, 32, 0.77);
+    transform: translateY(100%);
+    transition: 1s ease;
+  }
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card .card-content h2, .sectionSeven .my-container-sectionSeven .my-cards-chefs .card .card-content .h2 {
+    font-family: RobotoSerif-Medium;
+    font-size: 18px;
+  }
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card .card-content p {
+    font-style: oblique;
+  }
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card .card-content .my-icons-chefs {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card .card-content .my-icons-chefs .fa-brands {
+    font-size: 20px;
+  }
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card .card-content .my-icons-chefs .fa-brands:hover {
+    color: #cda45d;
+  }
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card:hover .card-content {
+    transform: translateY(0%);
   }
 }
 /*Tablet*/
 @media (min-width: 425px) and (max-width: 768px) {
   .sectionSeven {
     width: 100%;
-    height: 700px;
+    height: 750px;
     background-color: #0b0b09;
     display: flex;
     flex-direction: column;
@@ -15592,10 +15657,20 @@ footer .my-bottom-footer p {
   .sectionSeven .my-container-sectionSeven {
     width: 90%;
   }
-  .sectionSeven .my-container-sectionSeven h5, .sectionSeven .my-container-sectionSeven .h5 {
+  .sectionSeven .my-container-sectionSeven .my-small-header-sectionSeven {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .sectionSeven .my-container-sectionSeven .my-small-header-sectionSeven h5, .sectionSeven .my-container-sectionSeven .my-small-header-sectionSeven .h5 {
     color: white;
     font-family: RobotoRegular;
     font-size: 18px;
+  }
+  .sectionSeven .my-container-sectionSeven .my-small-header-sectionSeven hr {
+    width: 150px;
+    color: white;
+    height: 10px;
   }
   .sectionSeven .my-container-sectionSeven h3, .sectionSeven .my-container-sectionSeven .h3 {
     color: #cda45d;
@@ -15603,24 +15678,70 @@ footer .my-bottom-footer p {
     font-size: 35px;
     margin-bottom: 20px;
   }
-  .sectionSeven .my-container-sectionSeven .my-chefs {
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 20px;
+    justify-content: space-evenly;
+    gap: 30px;
   }
-  .sectionSeven .my-container-sectionSeven .my-chefs img {
-    height: 270px;
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card {
+    position: relative;
     width: 310px;
+    height: 310px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 0;
+  }
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card .card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background-color: rgba(13, 14, 32, 0.77);
+    transform: translateY(100%);
+    transition: 1s ease;
+  }
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card .card-content h2, .sectionSeven .my-container-sectionSeven .my-cards-chefs .card .card-content .h2 {
+    font-family: RobotoSerif-Medium;
+    font-size: 18px;
+  }
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card .card-content p {
+    font-style: oblique;
+  }
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card .card-content .my-icons-chefs {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card .card-content .my-icons-chefs .fa-brands {
+    font-size: 20px;
+  }
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card .card-content .my-icons-chefs .fa-brands:hover {
+    color: #cda45d;
+  }
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card:hover .card-content {
+    transform: translateY(0%);
   }
 }
 /*Mobile M&L*/
 @media (min-width: 321px) and (max-width: 425px) {
   .sectionSeven {
     width: 100%;
-    height: 1300px;
+    height: 1350px;
     background-color: #0b0b09;
     display: flex;
     flex-direction: column;
@@ -15630,10 +15751,20 @@ footer .my-bottom-footer p {
   .sectionSeven .my-container-sectionSeven {
     width: 90%;
   }
-  .sectionSeven .my-container-sectionSeven h5, .sectionSeven .my-container-sectionSeven .h5 {
+  .sectionSeven .my-container-sectionSeven .my-small-header-sectionSeven {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .sectionSeven .my-container-sectionSeven .my-small-header-sectionSeven h5, .sectionSeven .my-container-sectionSeven .my-small-header-sectionSeven .h5 {
     color: white;
     font-family: RobotoRegular;
     font-size: 18px;
+  }
+  .sectionSeven .my-container-sectionSeven .my-small-header-sectionSeven hr {
+    width: 150px;
+    color: white;
+    height: 10px;
   }
   .sectionSeven .my-container-sectionSeven h3, .sectionSeven .my-container-sectionSeven .h3 {
     color: #cda45d;
@@ -15641,17 +15772,63 @@ footer .my-bottom-footer p {
     font-size: 35px;
     margin-bottom: 20px;
   }
-  .sectionSeven .my-container-sectionSeven .my-chefs {
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 30px;
+  }
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 0;
+  }
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card .card-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    background-color: rgba(13, 14, 32, 0.77);
+    transform: translateY(100%);
+    transition: 1s ease;
+  }
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card .card-content h2, .sectionSeven .my-container-sectionSeven .my-cards-chefs .card .card-content .h2 {
+    font-family: RobotoSerif-Medium;
+    font-size: 18px;
+  }
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card .card-content p {
+    font-style: oblique;
+  }
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card .card-content .my-icons-chefs {
+    display: flex;
+    gap: 10px;
     align-items: center;
     justify-content: center;
-    gap: 20px;
   }
-  .sectionSeven .my-container-sectionSeven .my-chefs img {
-    height: 350px;
-    width: 100%;
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card .card-content .my-icons-chefs .fa-brands {
+    font-size: 20px;
+  }
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card .card-content .my-icons-chefs .fa-brands:hover {
+    color: #cda45d;
+  }
+  .sectionSeven .my-container-sectionSeven .my-cards-chefs .card:hover .card-content {
+    transform: translateY(0%);
   }
 }
 /*Laptop*/
