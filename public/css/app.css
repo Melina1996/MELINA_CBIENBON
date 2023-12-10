@@ -14466,8 +14466,20 @@ main {
   font-size: 20px;
   border-radius: 50%;
   border: 1px solid #cda45d;
-  padding: 15px;
+  padding: 13px;
   background-color: #cda45d;
+}
+.sectionEightPartThree .my-container-sectionEightPartThree .my-social-media .my-social-media-items .fa-location-dot {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+.sectionEightPartThree .my-container-sectionEightPartThree .my-social-media .my-social-media-items .fa-mobile-screen-button {
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 13px;
+  padding-bottom: 13px;
 }
 .sectionEightPartThree .my-container-sectionEightPartThree .my-social-media .my-text-social-media h4, .sectionEightPartThree .my-container-sectionEightPartThree .my-social-media .my-text-social-media .h4 {
   color: white;
@@ -14597,6 +14609,12 @@ footer .my-upper-footer .my-container-footer .footer-part-one .footer-icons .my-
   padding: 10px;
   background-color: #27251f;
   font-size: 15px;
+}
+footer .my-upper-footer .my-container-footer .footer-part-one .footer-icons .fa-facebook-f {
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 footer .my-upper-footer .my-container-footer .footer-part-one .footer-icons .my-footer-icon:hover {
   background-color: #cda45d;
