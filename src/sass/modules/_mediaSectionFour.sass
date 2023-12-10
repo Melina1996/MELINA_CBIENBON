@@ -3,27 +3,49 @@
 
     .sectionFour
         width: 100%
-        height: 600px
+        height: 550px
 
         display: flex
+        flex-direction: column
         justify-content: center
         align-items: center
         .container-sectionFour
             width: 90%
-            height: 65%
-            h5
-                color: white
-                font-family: RobotoRegular
-                font-size: 15px
+            height: 20%
+            margin-top: 30px
+
+            display: flex
+            flex-direction: column
+            justify-content: flex-end
+            .my-small-header-sectionFour
+                display: flex
+                align-items: center
+                gap: 8px
+                h5
+                    color: white
+                    font-family: RobotoRegular
+                    font-size: 18px
+                    padding: 0
+                    margin: 0
+                hr
+                    width: 150px
+                    border-top: 2px solid white
             h3
                 color: $ColorGolden
                 font-family: RobotoSerif-Medium
-                font-size: 23px
+                font-size: 25px
                 margin-bottom: 20px
+
+        .my-second-container-sectionFour
+            width: 90%
+            height: 80%
+            display: flex
+            flex-direction: column
+            justify-content: flex-start
 
             #carouselExampleIndicators
                 width: 100%
-                height: 100%
+                height: 90%
                 .carousel-inner
                     .carousel-item
                         .row
@@ -54,7 +76,7 @@
 
     .sectionFour
         width: 100%
-        height: 850px
+        height: 950px
         position: relative
 
         display: flex
@@ -62,25 +84,46 @@
         align-items: center
         .container-sectionFour
             width: 90%
-            height: 90%
-            h5
-                color: white
-                font-family: RobotoRegular
-                font-size: 15px
+            height: 10%
+            margin-top: 20px
+
+            display: flex
+            flex-direction: column
+            justify-content: flex-end
+            .my-small-header-sectionFour
+                display: flex
+                align-items: center
+                gap: 8px
+                h5
+                    color: white
+                    font-family: RobotoRegular
+                    font-size: 15px
+                    padding: 0
+                    margin: 0
+                hr
+                    width: 150px
+                    border-top: 2px solid white
             h3
                 color: $ColorGolden
                 font-family: RobotoSerif-Medium
-                font-size: 23px
+                font-size: 25px
                 margin-bottom: 20px
 
+        .my-second-container-sectionFour
+            width: 90%
+            height: 90%
+            display: flex
+            flex-direction: column
+            justify-content: flex-start
+            align-items: center
             #carouselExampleIndicators
                 width: 80%
-                height: 95%
+                height: 90%
                 .carousel-inner
                     .carousel-item
                         .row
                             display: flex
-                            flex-direction: column
+                            flex-direction: column //to get the two elements one on top of the other
                             gap: 20px
                             .col
                                 h5
@@ -115,22 +158,36 @@
         display: flex
         justify-content: center
         align-items: center
-        .container-sectionFour
-            width: 90%
-            height: 90%
-            h5
-                color: white
-                font-family: RobotoRegular
-                font-size: 15px
+        .my-small-header-sectionFour
+            display: flex
+            align-items: center
+            gap: 8px
+            .container-sectionFour
+                width: 90%
+                height: 90%
+                margin-top: 20px
+                h5
+                    color: white
+                    font-family: RobotoRegular
+                    font-size: 15px
+                    padding: 0
+                    margin: 0
+                hr
+                    width: 150px
+                    border-top: 2px solid white
             h3
                 color: $ColorGolden
                 font-family: RobotoSerif-Medium
-                font-size: 23px
+                font-size: 30px
                 margin-bottom: 20px
+
+        .my-second-container-sectionFour
+            width: 90%
+            height: 80%
 
             #carouselExampleIndicators
                 width: 80%
-                height: 90%
+                height: 100%
                 .carousel-inner
                     .carousel-item
                         .row

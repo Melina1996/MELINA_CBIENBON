@@ -14047,12 +14047,16 @@ main {
   height: 700px;
   position: relative;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .sectionFour .container-sectionFour {
   width: 90%;
-  height: 80%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .sectionFour .container-sectionFour .my-small-header-sectionFour {
   display: flex;
@@ -14076,37 +14080,41 @@ main {
   font-size: 35px;
   margin-bottom: 20px;
 }
-.sectionFour .container-sectionFour #carouselExampleIndicators {
+.sectionFour .my-second-container-sectionFour {
+  width: 90%;
+  height: 80%;
+}
+.sectionFour .my-second-container-sectionFour #carouselExampleIndicators {
   width: 100%;
   height: 90%;
 }
-.sectionFour .container-sectionFour #carouselExampleIndicators .carousel-indicators > button {
+.sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-indicators > button {
   height: 13px;
   width: 13px;
   border-radius: 50%;
 }
-.sectionFour .container-sectionFour #carouselExampleIndicators .carousel-indicators > button:hover {
+.sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-indicators > button:hover {
   background-color: #cda45d;
 }
-.sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col h5, .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .h5 {
+.sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col h5, .sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .h5 {
   font-family: RobotoSerif-Medium;
   font-size: 30px;
 }
-.sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col h4, .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .h4 {
+.sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col h4, .sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .h4 {
   font-family: RobotoMedium;
   font-size: 25px;
 }
-.sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .my-oblique-p {
+.sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .my-oblique-p {
   font-family: RobotoRegular;
   color: white;
   font-style: oblique;
 }
-.sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .my-three-p-carousel {
+.sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .my-three-p-carousel {
   font-family: RobotoRegular;
   color: white;
   margin-bottom: 30px;
 }
-.sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col p {
+.sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col p {
   font-family: RobotoRegular;
   color: white;
 }
@@ -14977,6 +14985,28 @@ footer #myBtn:hover {
   .sectionTwo {
     height: 850px;
   }
+  .sectionTwo .my-container-sectionTwo .my-small-header-sectionTwo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .sectionTwo .my-container-sectionTwo .my-small-header-sectionTwo h5, .sectionTwo .my-container-sectionTwo .my-small-header-sectionTwo .h5 {
+    color: white;
+    font-family: RobotoRegular;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+  }
+  .sectionTwo .my-container-sectionTwo .my-small-header-sectionTwo hr {
+    width: 150px;
+    border-top: 2px solid white;
+  }
+  .sectionTwo .my-container-sectionTwo h3, .sectionTwo .my-container-sectionTwo .h3 {
+    color: #cda45d;
+    font-family: RobotoSerif-Medium;
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
   .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo {
     display: flex;
     flex-direction: column;
@@ -15075,16 +15105,17 @@ footer #myBtn:hover {
     color: white;
     font-family: RobotoRegular;
     font-size: 18px;
+    padding: 0;
+    margin: 0;
   }
   .sectionThree .my-container-sectionThree .my-small-header-sectionThree hr {
-    width: 100px;
-    color: white;
-    height: 10px;
+    width: 80px;
+    border-top: 2px solid white;
   }
   .sectionThree .my-container-sectionThree h3, .sectionThree .my-container-sectionThree .h3 {
     color: #cda45d;
     font-family: RobotoSerif-Medium;
-    font-size: 35px;
+    font-size: 25px;
     margin-bottom: 20px;
   }
   .sectionThree .my-container-sectionThree .my-container-menu {
@@ -15189,23 +15220,24 @@ footer #myBtn:hover {
   }
   .sectionThree .my-container-sectionThree .my-small-header-sectionThree {
     display: flex;
-    align-items: center;
     gap: 8px;
   }
   .sectionThree .my-container-sectionThree .my-small-header-sectionThree h5, .sectionThree .my-container-sectionThree .my-small-header-sectionThree .h5 {
     color: white;
     font-family: RobotoRegular;
-    font-size: 18px;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
   }
   .sectionThree .my-container-sectionThree .my-small-header-sectionThree hr {
-    width: 100px;
-    color: white;
-    height: 10px;
+    width: 150px;
+    border-top: 2px solid white;
+    height: 0;
   }
   .sectionThree .my-container-sectionThree h3, .sectionThree .my-container-sectionThree .h3 {
     color: #cda45d;
     font-family: RobotoSerif-Medium;
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 20px;
   }
   .sectionThree .my-container-sectionThree .my-container-menu {
@@ -15317,11 +15349,12 @@ footer #myBtn:hover {
     color: white;
     font-family: RobotoRegular;
     font-size: 16px;
+    padding: 0;
+    margin: 0;
   }
   .sectionThree .my-container-sectionThree .my-small-header-sectionThree hr {
     width: 100px;
-    color: white;
-    height: 10px;
+    border-top: 2px solid white;
   }
   .sectionThree .my-container-sectionThree h3, .sectionThree .my-container-sectionThree .h3 {
     color: #cda45d;
@@ -15419,51 +15452,74 @@ footer #myBtn:hover {
 @media (min-width: 768px) and (max-width: 1024px) {
   .sectionFour {
     width: 100%;
-    height: 600px;
+    height: 550px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   .sectionFour .container-sectionFour {
     width: 90%;
-    height: 65%;
+    height: 20%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
-  .sectionFour .container-sectionFour h5, .sectionFour .container-sectionFour .h5 {
+  .sectionFour .container-sectionFour .my-small-header-sectionFour {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .sectionFour .container-sectionFour .my-small-header-sectionFour h5, .sectionFour .container-sectionFour .my-small-header-sectionFour .h5 {
     color: white;
     font-family: RobotoRegular;
-    font-size: 15px;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+  }
+  .sectionFour .container-sectionFour .my-small-header-sectionFour hr {
+    width: 150px;
+    border-top: 2px solid white;
   }
   .sectionFour .container-sectionFour h3, .sectionFour .container-sectionFour .h3 {
     color: #cda45d;
     font-family: RobotoSerif-Medium;
-    font-size: 23px;
+    font-size: 25px;
     margin-bottom: 20px;
   }
-  .sectionFour .container-sectionFour #carouselExampleIndicators {
-    width: 100%;
-    height: 100%;
+  .sectionFour .my-second-container-sectionFour {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
   }
-  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col h5, .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .h5 {
+  .sectionFour .my-second-container-sectionFour #carouselExampleIndicators {
+    width: 100%;
+    height: 90%;
+  }
+  .sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col h5, .sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .h5 {
     font-family: RobotoSerif-Medium;
     font-size: 19px;
   }
-  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col h4, .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .h4 {
+  .sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col h4, .sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .h4 {
     font-family: RobotoMedium;
     font-size: 19px;
   }
-  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .my-oblique-p {
+  .sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .my-oblique-p {
     font-family: RobotoRegular;
     color: white;
     font-style: oblique;
     font-size: 14px;
   }
-  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .my-three-p-carousel {
+  .sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .my-three-p-carousel {
     font-family: RobotoRegular;
     color: white;
     margin-bottom: 20px;
     font-size: 14px;
   }
-  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col p {
+  .sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col p {
     font-family: RobotoRegular;
     color: white;
     font-size: 14px;
@@ -15473,7 +15529,7 @@ footer #myBtn:hover {
 @media (min-width: 425px) and (max-width: 768px) {
   .sectionFour {
     width: 100%;
-    height: 850px;
+    height: 950px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -15481,49 +15537,72 @@ footer #myBtn:hover {
   }
   .sectionFour .container-sectionFour {
     width: 90%;
-    height: 90%;
+    height: 10%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
   }
-  .sectionFour .container-sectionFour h5, .sectionFour .container-sectionFour .h5 {
+  .sectionFour .container-sectionFour .my-small-header-sectionFour {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .sectionFour .container-sectionFour .my-small-header-sectionFour h5, .sectionFour .container-sectionFour .my-small-header-sectionFour .h5 {
     color: white;
     font-family: RobotoRegular;
     font-size: 15px;
+    padding: 0;
+    margin: 0;
+  }
+  .sectionFour .container-sectionFour .my-small-header-sectionFour hr {
+    width: 150px;
+    border-top: 2px solid white;
   }
   .sectionFour .container-sectionFour h3, .sectionFour .container-sectionFour .h3 {
     color: #cda45d;
     font-family: RobotoSerif-Medium;
-    font-size: 23px;
+    font-size: 25px;
     margin-bottom: 20px;
   }
-  .sectionFour .container-sectionFour #carouselExampleIndicators {
-    width: 80%;
-    height: 95%;
+  .sectionFour .my-second-container-sectionFour {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
   }
-  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row {
+  .sectionFour .my-second-container-sectionFour #carouselExampleIndicators {
+    width: 80%;
+    height: 90%;
+  }
+  .sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row {
     display: flex;
     flex-direction: column;
     gap: 20px;
   }
-  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col h5, .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .h5 {
+  .sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col h5, .sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .h5 {
     font-family: RobotoSerif-Medium;
     font-size: 19px;
   }
-  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col h4, .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .h4 {
+  .sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col h4, .sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .h4 {
     font-family: RobotoMedium;
     font-size: 19px;
   }
-  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .my-oblique-p {
+  .sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .my-oblique-p {
     font-family: RobotoRegular;
     color: white;
     font-style: oblique;
     font-size: 14px;
   }
-  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .my-three-p-carousel {
+  .sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .my-three-p-carousel {
     font-family: RobotoRegular;
     color: white;
     margin-bottom: 20px;
     font-size: 14px;
   }
-  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col p {
+  .sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col p {
     font-family: RobotoRegular;
     color: white;
     font-size: 14px;
@@ -15539,51 +15618,67 @@ footer #myBtn:hover {
     justify-content: center;
     align-items: center;
   }
-  .sectionFour .container-sectionFour {
+  .sectionFour .my-small-header-sectionFour {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .sectionFour .my-small-header-sectionFour .container-sectionFour {
     width: 90%;
     height: 90%;
+    margin-top: 20px;
   }
-  .sectionFour .container-sectionFour h5, .sectionFour .container-sectionFour .h5 {
+  .sectionFour .my-small-header-sectionFour .container-sectionFour h5, .sectionFour .my-small-header-sectionFour .container-sectionFour .h5 {
     color: white;
     font-family: RobotoRegular;
     font-size: 15px;
+    padding: 0;
+    margin: 0;
   }
-  .sectionFour .container-sectionFour h3, .sectionFour .container-sectionFour .h3 {
+  .sectionFour .my-small-header-sectionFour .container-sectionFour hr {
+    width: 150px;
+    border-top: 2px solid white;
+  }
+  .sectionFour .my-small-header-sectionFour h3, .sectionFour .my-small-header-sectionFour .h3 {
     color: #cda45d;
     font-family: RobotoSerif-Medium;
-    font-size: 23px;
+    font-size: 30px;
     margin-bottom: 20px;
   }
-  .sectionFour .container-sectionFour #carouselExampleIndicators {
-    width: 80%;
-    height: 90%;
+  .sectionFour .my-second-container-sectionFour {
+    width: 90%;
+    height: 80%;
   }
-  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row {
+  .sectionFour .my-second-container-sectionFour #carouselExampleIndicators {
+    width: 80%;
+    height: 100%;
+  }
+  .sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row {
     display: flex;
     flex-direction: column;
     gap: 20px;
   }
-  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col h5, .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .h5 {
+  .sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col h5, .sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .h5 {
     font-family: RobotoSerif-Medium;
     font-size: 19px;
   }
-  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col h4, .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .h4 {
+  .sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col h4, .sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .h4 {
     font-family: RobotoMedium;
     font-size: 19px;
   }
-  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .my-oblique-p {
+  .sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .my-oblique-p {
     font-family: RobotoRegular;
     color: white;
     font-style: oblique;
     font-size: 14px;
   }
-  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .my-three-p-carousel {
+  .sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col .my-three-p-carousel {
     font-family: RobotoRegular;
     color: white;
     margin-bottom: 20px;
     font-size: 14px;
   }
-  .sectionFour .container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col p {
+  .sectionFour .my-second-container-sectionFour #carouselExampleIndicators .carousel-inner .carousel-item .row .col p {
     font-family: RobotoRegular;
     color: white;
     font-size: 14px;
@@ -15606,15 +15701,26 @@ footer #myBtn:hover {
     flex-direction: column;
     justify-content: center;
   }
-  .sectionFive .my-container-sectionFive h5, .sectionFive .my-container-sectionFive .h5 {
+  .sectionFive .my-container-sectionFive .my-small-header-sectionFive {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .sectionFive .my-container-sectionFive .my-small-header-sectionFive h5, .sectionFive .my-container-sectionFive .my-small-header-sectionFive .h5 {
     color: white;
     font-family: RobotoRegular;
     font-size: 18px;
+    padding: 0;
+    margin: 0;
+  }
+  .sectionFive .my-container-sectionFive .my-small-header-sectionFive hr {
+    width: 150px;
+    border-top: 2px solid white;
   }
   .sectionFive .my-container-sectionFive h3, .sectionFive .my-container-sectionFive .h3 {
     color: #cda45d;
     font-family: RobotoSerif-Medium;
-    font-size: 35px;
+    font-size: 25px;
     margin-bottom: 20px;
   }
   .sectionFive .my-container-sectionFive .my-form {
@@ -15874,15 +15980,26 @@ footer #myBtn:hover {
   .sectionSix .my-text-container-sectionSix {
     width: 90%;
   }
-  .sectionSix .my-text-container-sectionSix h5, .sectionSix .my-text-container-sectionSix .h5 {
+  .sectionSix .my-text-container-sectionSix .my-small-header-sectionFour {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .sectionSix .my-text-container-sectionSix .my-small-header-sectionFour h5, .sectionSix .my-text-container-sectionSix .my-small-header-sectionFour .h5 {
     color: white;
     font-family: RobotoRegular;
     font-size: 18px;
+    padding: 0;
+    margin: 0;
+  }
+  .sectionSix .my-text-container-sectionSix .my-small-header-sectionFour hr {
+    width: 150px;
+    border-top: 2px solid white;
   }
   .sectionSix .my-text-container-sectionSix h3, .sectionSix .my-text-container-sectionSix .h3 {
     color: #cda45d;
     font-family: RobotoSerif-Medium;
-    font-size: 35px;
+    font-size: 25px;
     margin-bottom: 20px;
   }
   .sectionSix .my-container-sectionSix {
@@ -15921,15 +16038,26 @@ footer #myBtn:hover {
   .sectionSix .my-text-container-sectionSix {
     width: 90%;
   }
-  .sectionSix .my-text-container-sectionSix h5, .sectionSix .my-text-container-sectionSix .h5 {
+  .sectionSix .my-text-container-sectionSix .my-small-header-sectionFour {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .sectionSix .my-text-container-sectionSix .my-small-header-sectionFour h5, .sectionSix .my-text-container-sectionSix .my-small-header-sectionFour .h5 {
     color: white;
     font-family: RobotoRegular;
     font-size: 18px;
+    padding: 0;
+    margin: 0;
+  }
+  .sectionSix .my-text-container-sectionSix .my-small-header-sectionFour hr {
+    width: 150px;
+    border-top: 2px solid white;
   }
   .sectionSix .my-text-container-sectionSix h3, .sectionSix .my-text-container-sectionSix .h3 {
     color: #cda45d;
     font-family: RobotoSerif-Medium;
-    font-size: 35px;
+    font-size: 25px;
     margin-bottom: 20px;
   }
   .sectionSix .my-container-sectionSix {
@@ -15958,7 +16086,7 @@ footer #myBtn:hover {
 @media (min-width: 321px) and (max-width: 425px) {
   .sectionSix {
     width: 100%;
-    height: 1500px;
+    height: 2550px;
     background-color: #0b0b09;
     display: flex;
     flex-direction: column;
@@ -15987,7 +16115,7 @@ footer #myBtn:hover {
     align-items: center;
   }
   .sectionSix .my-container-sectionSix .my-gallery-item {
-    width: 250px;
+    width: 400px;
     position: relative;
     overflow: hidden;
     display: flex;
@@ -15996,8 +16124,8 @@ footer #myBtn:hover {
     align-items: center;
   }
   .sectionSix .my-container-sectionSix .my-gallery-item img {
-    width: 250px;
-    height: 160px;
+    width: 400px;
+    height: 300px;
     border: 2px solid #3c3939;
   }
 }
@@ -16024,16 +16152,17 @@ footer #myBtn:hover {
     color: white;
     font-family: RobotoRegular;
     font-size: 18px;
+    padding: 0;
+    margin: 0;
   }
   .sectionSeven .my-container-sectionSeven .my-small-header-sectionSeven hr {
     width: 150px;
-    color: white;
-    height: 10px;
+    border-top: 2px solid white;
   }
   .sectionSeven .my-container-sectionSeven h3, .sectionSeven .my-container-sectionSeven .h3 {
     color: #cda45d;
     font-family: RobotoSerif-Medium;
-    font-size: 35px;
+    font-size: 25px;
     margin-bottom: 20px;
   }
   .sectionSeven .my-container-sectionSeven .my-cards-chefs {
@@ -16119,16 +16248,17 @@ footer #myBtn:hover {
     color: white;
     font-family: RobotoRegular;
     font-size: 18px;
+    padding: 0;
+    margin: 0;
   }
   .sectionSeven .my-container-sectionSeven .my-small-header-sectionSeven hr {
     width: 150px;
-    color: white;
-    height: 10px;
+    border-top: 2px solid white;
   }
   .sectionSeven .my-container-sectionSeven h3, .sectionSeven .my-container-sectionSeven .h3 {
     color: #cda45d;
     font-family: RobotoSerif-Medium;
-    font-size: 35px;
+    font-size: 30px;
     margin-bottom: 20px;
   }
   .sectionSeven .my-container-sectionSeven .my-cards-chefs {
@@ -16213,17 +16343,18 @@ footer #myBtn:hover {
     color: white;
     font-family: RobotoRegular;
     font-size: 18px;
+    padding: 0;
+    margin: 0;
   }
   .sectionSeven .my-container-sectionSeven .my-small-header-sectionSeven hr {
     width: 150px;
-    color: white;
-    height: 10px;
+    border-top: 2px solid white;
   }
   .sectionSeven .my-container-sectionSeven h3, .sectionSeven .my-container-sectionSeven .h3 {
     color: #cda45d;
     font-family: RobotoSerif-Medium;
-    font-size: 35px;
-    margin-bottom: 20px;
+    font-size: 30px;
+    margin-bottom: 35px;
   }
   .sectionSeven .my-container-sectionSeven .my-cards-chefs {
     width: 100%;
@@ -16282,6 +16413,80 @@ footer #myBtn:hover {
   }
   .sectionSeven .my-container-sectionSeven .my-cards-chefs .card:hover .card-content {
     transform: translateY(0%);
+  }
+}
+/*Laptop*/
+@media (min-width: 768px) and (max-width: 1024px) {
+  .sectionEightPartOne {
+    width: 100%;
+    height: 150px;
+    background-color: #0b0b09;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionEightPartOne .my-container-text-sectionEightPartOne {
+    width: 90%;
+  }
+  .sectionEightPartOne .my-container-text-sectionEightPartOne .my-small-header-sectionEight {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .sectionEightPartOne .my-container-text-sectionEightPartOne .my-small-header-sectionEight h5, .sectionEightPartOne .my-container-text-sectionEightPartOne .my-small-header-sectionEight .h5 {
+    color: white;
+    font-family: RobotoRegular;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+  }
+  .sectionEightPartOne .my-container-text-sectionEightPartOne .my-small-header-sectionEight hr {
+    width: 150px;
+    border-top: 2px solid white;
+  }
+  .sectionEightPartOne .my-container-text-sectionEightPartOne h3, .sectionEightPartOne .my-container-text-sectionEightPartOne .h3 {
+    color: #cda45d;
+    font-family: RobotoSerif-Medium;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+}
+/*Tablet*/
+@media (min-width: 425px) and (max-width: 768px) {
+  .sectionEightPartOne {
+    width: 100%;
+    height: 150px;
+    background-color: #0b0b09;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .sectionEightPartOne .my-container-text-sectionEightPartOne {
+    width: 90%;
+  }
+  .sectionEightPartOne .my-container-text-sectionEightPartOne .my-small-header-sectionEight {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .sectionEightPartOne .my-container-text-sectionEightPartOne .my-small-header-sectionEight h5, .sectionEightPartOne .my-container-text-sectionEightPartOne .my-small-header-sectionEight .h5 {
+    color: white;
+    font-family: RobotoRegular;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+  }
+  .sectionEightPartOne .my-container-text-sectionEightPartOne .my-small-header-sectionEight hr {
+    width: 150px;
+    border-top: 2px solid white;
+  }
+  .sectionEightPartOne .my-container-text-sectionEightPartOne h3, .sectionEightPartOne .my-container-text-sectionEightPartOne .h3 {
+    color: #cda45d;
+    font-family: RobotoSerif-Medium;
+    font-size: 25px;
+    margin-bottom: 25px;
   }
 }
 /*Laptop*/

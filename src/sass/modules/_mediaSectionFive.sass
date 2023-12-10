@@ -16,14 +16,23 @@
             display: flex
             flex-direction: column
             justify-content: center
-            h5
-                color: white
-                font-family: RobotoRegular
-                font-size: 18px
+            .my-small-header-sectionFive
+                display: flex
+                align-items: center
+                gap: 8px
+                h5
+                    color: white
+                    font-family: RobotoRegular
+                    font-size: 18px
+                    padding: 0
+                    margin: 0
+                hr
+                    width: 150px
+                    border-top: 2px solid white
             h3
                 color: $ColorGolden
                 font-family: RobotoSerif-Medium
-                font-size: 35px
+                font-size: 25px
                 margin-bottom: 20px
             .my-form
                 width: 100%
@@ -31,11 +40,11 @@
 
                 display: flex
                 justify-content: space-between
-                flex-wrap: wrap
+                flex-wrap: wrap //wrap makes elements automatically change row
                 gap: 10px
                 #name, #Email, #phone
                     padding: 5px
-                    width: 300px
+                    width: 300px //play with width of fields for the respective media sizes
                     border-radius: 1px
                     border: 1px solid #625b4b
                     background-color: rgba(0, 0, 0, 0)
