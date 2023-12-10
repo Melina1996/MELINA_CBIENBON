@@ -13565,15 +13565,15 @@ textarea.form-control-lg {
   font-family: "RobotoSerif-SemiBold";
   src: url("../../../public/assets/fonts/RobotoSerif-SemiBold.ttf");
 }
-header {
+.sectionZero {
   width: 100%;
   height: 700px;
   position: relative;
 }
-header .modal .modal-dialog {
+.sectionZero .modal .modal-dialog {
   height: 100%;
 }
-header .modal .modal-dialog .modal-content {
+.sectionZero .modal .modal-dialog .modal-content {
   position: absolute;
   margin: 0;
   top: 50%;
@@ -13581,84 +13581,106 @@ header .modal .modal-dialog .modal-content {
   transform: translate(-50%, -50%);
   width: auto;
 }
-header .modal .modal-dialog .modal-content .modal-body {
+.sectionZero .modal .modal-dialog .modal-content .modal-body {
   padding: 0;
   margin: 0;
   width: 900px;
 }
-header .modal .modal-dialog .modal-content .modal-body video {
+.sectionZero .modal .modal-dialog .modal-content .modal-body video {
   width: 100%;
   height: 100%;
   border-radius: 8px;
   display: block;
   margin: auto;
 }
-header .upper-header {
+.sectionZero header {
   width: 100%;
   height: 10%;
+  position: relative;
 }
-header .upper-header #my-navbar {
+.sectionZero header #my-navbar {
   background: rgba(14, 16, 15, 0.5);
+  position: absolute;
+  width: 100%;
 }
-header .upper-header #my-navbar .container-fluid .my-name, header .upper-header #my-navbar .container-sm .my-name, header .upper-header #my-navbar .container-md .my-name, header .upper-header #my-navbar .container-lg .my-name, header .upper-header #my-navbar .container-xl .my-name, header .upper-header #my-navbar .container-xxl .my-name {
-  font-size: 25px;
+.sectionZero header #my-navbar .container-fluid .my-name, .sectionZero header #my-navbar .container-sm .my-name, .sectionZero header #my-navbar .container-md .my-name, .sectionZero header #my-navbar .container-lg .my-name, .sectionZero header #my-navbar .container-xl .my-name, .sectionZero header #my-navbar .container-xxl .my-name {
+  font-size: 22px;
   margin: 0;
-  padding-left: 10px;
+  position: absolute;
+  left: 25px;
+  top: 10px;
 }
-header .upper-header #my-navbar .container-fluid #navbarSupportedContent ul, header .upper-header #my-navbar .container-sm #navbarSupportedContent ul, header .upper-header #my-navbar .container-md #navbarSupportedContent ul, header .upper-header #my-navbar .container-lg #navbarSupportedContent ul, header .upper-header #my-navbar .container-xl #navbarSupportedContent ul, header .upper-header #my-navbar .container-xxl #navbarSupportedContent ul {
+.sectionZero header #my-navbar .container-fluid #navbarSupportedContent ul, .sectionZero header #my-navbar .container-sm #navbarSupportedContent ul, .sectionZero header #my-navbar .container-md #navbarSupportedContent ul, .sectionZero header #my-navbar .container-lg #navbarSupportedContent ul, .sectionZero header #my-navbar .container-xl #navbarSupportedContent ul, .sectionZero header #my-navbar .container-xxl #navbarSupportedContent ul {
   display: flex;
   gap: 15px;
 }
-header .upper-header #my-navbar .container-fluid #navbarSupportedContent ul .nav-item a, header .upper-header #my-navbar .container-sm #navbarSupportedContent ul .nav-item a, header .upper-header #my-navbar .container-md #navbarSupportedContent ul .nav-item a, header .upper-header #my-navbar .container-lg #navbarSupportedContent ul .nav-item a, header .upper-header #my-navbar .container-xl #navbarSupportedContent ul .nav-item a, header .upper-header #my-navbar .container-xxl #navbarSupportedContent ul .nav-item a {
+.sectionZero header #my-navbar .container-fluid #navbarSupportedContent ul .nav-item a, .sectionZero header #my-navbar .container-sm #navbarSupportedContent ul .nav-item a, .sectionZero header #my-navbar .container-md #navbarSupportedContent ul .nav-item a, .sectionZero header #my-navbar .container-lg #navbarSupportedContent ul .nav-item a, .sectionZero header #my-navbar .container-xl #navbarSupportedContent ul .nav-item a, .sectionZero header #my-navbar .container-xxl #navbarSupportedContent ul .nav-item a {
   font-size: 15px;
   color: white;
 }
-header .upper-header #my-navbar .container-fluid #navbarSupportedContent ul .nav-item a:hover, header .upper-header #my-navbar .container-sm #navbarSupportedContent ul .nav-item a:hover, header .upper-header #my-navbar .container-md #navbarSupportedContent ul .nav-item a:hover, header .upper-header #my-navbar .container-lg #navbarSupportedContent ul .nav-item a:hover, header .upper-header #my-navbar .container-xl #navbarSupportedContent ul .nav-item a:hover, header .upper-header #my-navbar .container-xxl #navbarSupportedContent ul .nav-item a:hover {
+.sectionZero header #my-navbar .container-fluid #navbarSupportedContent ul .nav-item a:hover, .sectionZero header #my-navbar .container-sm #navbarSupportedContent ul .nav-item a:hover, .sectionZero header #my-navbar .container-md #navbarSupportedContent ul .nav-item a:hover, .sectionZero header #my-navbar .container-lg #navbarSupportedContent ul .nav-item a:hover, .sectionZero header #my-navbar .container-xl #navbarSupportedContent ul .nav-item a:hover, .sectionZero header #my-navbar .container-xxl #navbarSupportedContent ul .nav-item a:hover {
   color: #cda45d;
 }
-header .upper-header #my-navbar .container-fluid button .my-btn-p, header .upper-header #my-navbar .container-sm button .my-btn-p, header .upper-header #my-navbar .container-md button .my-btn-p, header .upper-header #my-navbar .container-lg button .my-btn-p, header .upper-header #my-navbar .container-xl button .my-btn-p, header .upper-header #my-navbar .container-xxl button .my-btn-p {
+.sectionZero header #my-navbar .container-fluid button, .sectionZero header #my-navbar .container-sm button, .sectionZero header #my-navbar .container-md button, .sectionZero header #my-navbar .container-lg button, .sectionZero header #my-navbar .container-xl button, .sectionZero header #my-navbar .container-xxl button {
   color: white;
+  background-color: transparent;
+  border: 2px solid #cda45d;
+  border-radius: 20px;
   font-size: 13px;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
-header .bottom-header {
+.sectionZero header #my-navbar .container-fluid button p, .sectionZero header #my-navbar .container-sm button p, .sectionZero header #my-navbar .container-md button p, .sectionZero header #my-navbar .container-lg button p, .sectionZero header #my-navbar .container-xl button p, .sectionZero header #my-navbar .container-xxl button p {
+  padding: 0;
+  margin: 0;
+}
+.sectionZero header #my-navbar .container-fluid button:hover, .sectionZero header #my-navbar .container-sm button:hover, .sectionZero header #my-navbar .container-md button:hover, .sectionZero header #my-navbar .container-lg button:hover, .sectionZero header #my-navbar .container-xl button:hover, .sectionZero header #my-navbar .container-xxl button:hover {
+  background-color: #cda45d;
+}
+.sectionZero .bottom-header {
   width: 100%;
   height: 90%;
   display: flex;
   align-items: center;
 }
-header .bottom-header .my-banner-text-container {
+.sectionZero .bottom-header .my-banner-text-container {
   width: 50%;
   display: flex;
   justify-content: center;
 }
-header .bottom-header .my-banner-text-container h1, header .bottom-header .my-banner-text-container .h1 {
+.sectionZero .bottom-header .my-banner-text-container h1, .sectionZero .bottom-header .my-banner-text-container .h1 {
   color: white;
   font-family: RobotoBold;
   font-size: 55px;
 }
-header .bottom-header .my-banner-text-container h4, header .bottom-header .my-banner-text-container .h4 {
+.sectionZero .bottom-header .my-banner-text-container h4, .sectionZero .bottom-header .my-banner-text-container .h4 {
   color: white;
   font-family: RobotoSerif-Regular;
   font-size: 20px;
 }
-header .bottom-header .my-banner-text-container .my-buttons {
+.sectionZero .bottom-header .my-banner-text-container .my-buttons {
   margin-top: 20px;
   display: flex;
   gap: 20px;
 }
-header .bottom-header .my-banner-text-container .my-buttons .btn {
+.sectionZero .bottom-header .my-banner-text-container .my-buttons .btn {
   padding-left: 18px;
   padding-right: 18px;
   font-size: 13px;
 }
-header .bottom-header .my-modal {
+.sectionZero .bottom-header .my-modal {
   width: 50%;
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-header .bottom-header .my-modal .my-play-button {
+.sectionZero .bottom-header .my-modal .my-play-button {
   width: 80px;
   height: 80px;
   background-color: #cca35e;
@@ -13669,11 +13691,11 @@ header .bottom-header .my-modal .my-play-button {
   justify-content: center;
   align-items: center;
 }
-header .bottom-header .my-modal .my-play-button img {
+.sectionZero .bottom-header .my-modal .my-play-button img {
   width: 30px;
   height: 30px;
 }
-header .bottom-header .my-modal .my-play-button::after {
+.sectionZero .bottom-header .my-modal .my-play-button::after {
   position: absolute;
   content: "";
   top: 0;
@@ -13684,7 +13706,7 @@ header .bottom-header .my-modal .my-play-button::after {
   border-radius: 50%;
   animation: pulse 2s infinite linear;
 }
-@keyframes pulse //animation// {
+@keyframes pulse {
   0% {
     opacity: 0;
     transform: scale 0.95;
@@ -13698,7 +13720,7 @@ header .bottom-header .my-modal .my-play-button::after {
   }
 }
 
-header::before {
+.sectionZero::before {
   background-image: url("./../../public/assets/img/hero-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -13716,28 +13738,6 @@ body {
   padding: 0;
   width: 100%;
   font-family: sans-serif;
-}
-body #myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 15px;
-  z-index: 99;
-  font-size: 15px;
-  border-radius: 50%;
-  border: 2px solid #cda45d;
-  outline: none;
-  background-color: transparent;
-  color: #cda45d;
-  cursor: pointer;
-  padding-right: 14.5px;
-  padding-left: 14.5px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
-body #myBtn:hover {
-  background-color: #cda45d;
-  color: white;
 }
 
 main {
@@ -13913,7 +13913,7 @@ main {
 .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo:hover h1, .sectionTwo .my-container-sectionTwo .my-boxes-sectionTwo .my-box-sectionTwo:hover .h1 {
   color: white;
 }
-@keyframes text-moves-up //my animation to move up the text// {
+@keyframes text-moves-up {
   50% {
     transform: translateY(-15px);
   }
@@ -14698,42 +14698,64 @@ footer .my-bottom-footer p {
   padding: 0;
   margin: 0;
 }
+footer #myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 15px;
+  z-index: 99;
+  font-size: 15px;
+  border-radius: 50%;
+  border: 2px solid #cda45d;
+  outline: none;
+  background-color: transparent;
+  color: #cda45d;
+  cursor: pointer;
+  padding-right: 14.5px;
+  padding-left: 14.5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+footer #myBtn:hover {
+  background-color: #cda45d;
+  color: white;
+}
 
 /*Laptop*/
 @media (min-width: 768px) and (max-width: 1024px) {
-  header {
+  .sectionZero {
     height: 600px;
   }
-  header .bottom-header .my-banner-text-container {
+  .sectionZero .bottom-header .my-banner-text-container {
     width: 50%;
   }
-  header .bottom-header .my-banner-text-container h1, header .bottom-header .my-banner-text-container .h1 {
+  .sectionZero .bottom-header .my-banner-text-container h1, .sectionZero .bottom-header .my-banner-text-container .h1 {
     font-size: 35px;
   }
-  header .bottom-header .my-banner-text-container h4, header .bottom-header .my-banner-text-container .h4 {
+  .sectionZero .bottom-header .my-banner-text-container h4, .sectionZero .bottom-header .my-banner-text-container .h4 {
     font-size: 15px;
   }
-  header .bottom-header .my-banner-text-container .my-buttons {
+  .sectionZero .bottom-header .my-banner-text-container .my-buttons {
     margin-top: 15px;
     display: flex;
     gap: 20px;
   }
-  header .bottom-header .my-banner-text-container .my-buttons .btn {
+  .sectionZero .bottom-header .my-banner-text-container .my-buttons .btn {
     padding-left: 18px;
     padding-right: 18px;
     font-size: 10px;
   }
-  header .bottom-header .my-modal {
+  .sectionZero .bottom-header .my-modal {
     width: 50%;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  header .bottom-header .my-modal .my-play-button {
+  .sectionZero .bottom-header .my-modal .my-play-button {
     border-radius: 50%;
   }
-  header .bottom-header .my-modal .my-icon-play {
+  .sectionZero .bottom-header .my-modal .my-icon-play {
     font-size: 30px;
     color: white;
     padding: 15px;
@@ -14741,52 +14763,59 @@ footer .my-bottom-footer p {
 }
 /*Tablet*/
 @media (min-width: 425px) and (max-width: 768px) {
-  header {
+  .sectionZero {
     height: 700px;
   }
-  header .bottom-header {
+  .sectionZero header #my-navbar {
+    height: 50px;
+  }
+  .sectionZero header #my-navbar .container-fluid button, .sectionZero header #my-navbar .container-sm button, .sectionZero header #my-navbar .container-md button, .sectionZero header #my-navbar .container-lg button, .sectionZero header #my-navbar .container-xl button, .sectionZero header #my-navbar .container-xxl button {
+    border: none;
+    color: white;
+  }
+  .sectionZero .bottom-header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
   }
-  header .bottom-header .my-banner-text-container {
+  .sectionZero .bottom-header .my-banner-text-container {
     width: 100%;
     height: 350px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
   }
-  header .bottom-header .my-banner-text-container h1, header .bottom-header .my-banner-text-container .h1 {
+  .sectionZero .bottom-header .my-banner-text-container h1, .sectionZero .bottom-header .my-banner-text-container .h1 {
     font-size: 35px;
     text-align: center;
   }
-  header .bottom-header .my-banner-text-container h4, header .bottom-header .my-banner-text-container .h4 {
+  .sectionZero .bottom-header .my-banner-text-container h4, .sectionZero .bottom-header .my-banner-text-container .h4 {
     font-size: 15px;
     text-align: center;
   }
-  header .bottom-header .my-banner-text-container .my-buttons {
+  .sectionZero .bottom-header .my-banner-text-container .my-buttons {
     margin-top: 15px;
     display: flex;
     justify-content: center;
     gap: 20px;
   }
-  header .bottom-header .my-banner-text-container .my-buttons .btn {
+  .sectionZero .bottom-header .my-banner-text-container .my-buttons .btn {
     padding-left: 18px;
     padding-right: 18px;
     font-size: 10px;
   }
-  header .bottom-header .my-modal {
+  .sectionZero .bottom-header .my-modal {
     width: 100%;
     height: 350px;
     display: flex;
     justify-content: center;
     align-items: flex-start;
   }
-  header .bottom-header .my-modal .my-play-button {
+  .sectionZero .bottom-header .my-modal .my-play-button {
     border-radius: 50%;
   }
-  header .bottom-header .my-modal .my-icon-play {
+  .sectionZero .bottom-header .my-modal .my-icon-play {
     font-size: 30px;
     color: white;
     padding: 15px;
